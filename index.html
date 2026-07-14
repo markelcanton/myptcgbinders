@@ -2,7 +2,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>myptcgbinders</title>
-    <link rel="icon" type="image/png" href="img/logo/tub.png">
+    <link rel="icon" type="image/png" href="img/logo/icon.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/binders.css">
 </head>
@@ -16,21 +16,29 @@
         <p>
             En esta página podrás consultar mis álbumes actualizados en tiempo real.
         </p>
-    </main>
-    <main id="binders-container">
-        <div id="binder-book" class="binder-book">
-            </div>
+        <main id="binders-container" style="background-color: #ffffff00">
+            <div id="binder-book" class="binder-book"></div>
 
-        <div class="binder-controls">
-            <button id="prev-btn" class="nav-btn">◀ Anterior</button>
-            <div class="page-select-container">
-                <span>Página:</span>
-                <select id="page-select"></select>
-            </div>
-            <button id="next-btn" class="nav-btn">Siguiente ▶</button>
-        </div>
-    </main>
+            <div class="binder-controls">
+                <div class="album-select-container">
+                    <span>Álbum:</span>
+                    <select id="album-select">
+                        <option value="json/gamegenic2x2.json" data-grid="2x2">Gamegenic (2x2)</option>
+                        <option value="json/ultrapro2x2.json" data-grid="2x2">UltraPRO (2x2 + Jumbo)</option>
+                        <option value="json/holo3x3.json" data-grid="3x3">Álbum Holo (3x3)</option>
+                    </select>
+                </div>
 
+                <button id="prev-btn" class="nav-btn">◀ Anterior</button>
+                <div class="page-select-container">
+                    <span>Página:</span>
+                    <input type="text" id="page-input" value="1">
+                    <span id="total-pages-label">/ 1</span>
+                </div>
+                <button id="next-btn" class="nav-btn">Siguiente ▶</button>
+            </div>
+        </main>
+    </main>
     <footer>
         <b>Creado por <a target="_blank" href="https://github.com/markelcanton/" title="https://github.com/markelcanton/">Markel Cantón</a></b>
     </footer>
