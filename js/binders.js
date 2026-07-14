@@ -23,6 +23,10 @@ async function loadAllBinders() {
     }
 }
 
+function isMobile() {
+    return window.innerWidth <= 768;
+}
+
 function initNavigation() {
     const input = document.getElementById('page-input');
     const totalLabel = document.getElementById('total-pages-label');
@@ -44,10 +48,14 @@ function goToPage(inputVal) {
     if (targetPage > totalPages) targetPage = totalPages;
     if (targetPage < 1) targetPage = 1;
 
-    if (targetPage === 1) {
-        currentView = 0;
+    if (isMobile()) {
+        currentView = targetPage - 1;
     } else {
-        currentView = Math.floor((targetPage - 2) / 2) + 1;
+        if (targetPage === 1) {
+            currentView = 0;
+        } else {
+            currentView = Math.floor((targetPage - 2) / 2) + 1;
+        }
     }
     
     document.getElementById('page-input').value = getPageLabelForView(currentView);
@@ -55,6 +63,10 @@ function goToPage(inputVal) {
 }
 
 function getPageLabelForView(view) {
+    if (isMobile()) {
+        return (view + 1).toString();
+    }
+    
     if (view === 0) return "1";
 
     const p1 = (view * 2);
@@ -68,37 +80,52 @@ function renderCurrentView() {
     if (!bookContainer) return;
     bookContainer.innerHTML = ''; 
 
-    if (currentView === 0) {
-        const coverSide = document.createElement('div');
-        coverSide.className = 'page-side left-side cover-page';
-        coverSide.innerHTML = '<div class="cover-title"></div>';
-        bookContainer.appendChild(coverSide);
-
-        const rightSide = document.createElement('div');
-        rightSide.className = 'page-side right-side';
-        buildPageHTML(rightSide, 1);
-        bookContainer.appendChild(rightSide);
-    } else {
-        const leftPageNum = currentView * 2;
-        const rightPageNum = (currentView * 2) + 1;
-
-        const leftSide = document.createElement('div');
-        leftSide.className = 'page-side left-side';
-        buildPageHTML(leftSide, leftPageNum);
-        bookContainer.appendChild(leftSide);
-
-        const rightSide = document.createElement('div');
-        rightSide.className = 'page-side right-side';
+    if (isMobile()) {
+        const pageNum = currentView + 1;
+        const mobileSide = document.createElement('div');
+        mobileSide.className = 'page-side right-side';
         
-        const existePaginaDerecha = allPagesData.some(p => p.number === rightPageNum);
-        
-        if (existePaginaDerecha) {
-            buildPageHTML(rightSide, rightPageNum);
+        const existePagina = allPagesData.some(p => p.number === pageNum);
+        if (existePagina) {
+            buildPageHTML(mobileSide, pageNum);
         } else {
-            rightSide.classList.add('cover-page'); 
-            rightSide.innerHTML = '<div class="cover-title"></div>';
+            mobileSide.classList.add('cover-page');
+            mobileSide.innerHTML = '<div class="cover-title"></div>';
         }
-        bookContainer.appendChild(rightSide);
+        bookContainer.appendChild(mobileSide);
+    } else {
+        if (currentView === 0) {
+            const coverSide = document.createElement('div');
+            coverSide.className = 'page-side left-side cover-page';
+            coverSide.innerHTML = '<div class="cover-title"></div>';
+            bookContainer.appendChild(coverSide);
+
+            const rightSide = document.createElement('div');
+            rightSide.className = 'page-side right-side';
+            buildPageHTML(rightSide, 1);
+            bookContainer.appendChild(rightSide);
+        } else {
+            const leftPageNum = currentView * 2;
+            const rightPageNum = (currentView * 2) + 1;
+
+            const leftSide = document.createElement('div');
+            leftSide.className = 'page-side left-side';
+            buildPageHTML(leftSide, leftPageNum);
+            bookContainer.appendChild(leftSide);
+
+            const rightSide = document.createElement('div');
+            rightSide.className = 'page-side right-side';
+            
+            const existePaginaDerecha = allPagesData.some(p => p.number === rightPageNum);
+            
+            if (existePaginaDerecha) {
+                buildPageHTML(rightSide, rightPageNum);
+            } else {
+                rightSide.classList.add('cover-page'); 
+                rightSide.innerHTML = '<div class="cover-title"></div>';
+            }
+            bookContainer.appendChild(rightSide);
+        }
     }
 
     const select = document.getElementById('page-select');
@@ -220,12 +247,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     prevBtn.addEventListener('click', () => {
         let currentPage = parseInt(pageInput.value);
-        goToPage(currentPage - 2); 
+        let step = isMobile() ? 1 : 2;
+        goToPage(currentPage - step); 
     });
 
     nextBtn.addEventListener('click', () => {
         let currentPage = parseInt(pageInput.value);
-        goToPage(currentPage + 2);
+        let step = isMobile() ? 1 : 2;
+        goToPage(currentPage + step);
     });
 
     pageInput.addEventListener('keydown', (e) => {
@@ -239,4 +268,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     loadAllBinders();
+
+    window.addEventListener('resize', () => {
+        goToPage(parseInt(pageInput.value));
+    });
 });
