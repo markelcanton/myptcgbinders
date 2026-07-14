@@ -1,0 +1,1209 @@
+{
+  "pages": [
+    {
+      "number": 1,
+      "cards": []
+    },
+    {
+      "number": 2,
+      "cards": [
+        {
+          "slot": 1,
+          "name": "Exeggutor",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_135.png",
+          "expansion": "Megaevolution",
+          "code": "MEG135",
+          "format": "I",
+          "date": "2026-05-02",
+          "condition": "Near Mint (del sobre al blister)",
+          "price": "10€",
+          "cardmarket-link": "",
+          "type": "IR",
+          "language": "Inglés"
+        },
+        {
+          "slot": 2,
+          "name": "Aurorus",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_92.png",
+          "expansion": "Perfect Order",
+          "code": "POR092",
+          "format": "J",
+          "date": "2026-03-21",
+          "condition": "Near Mint (del sobre al blister, sacado en prerrelease)",
+          "price": "7€",
+          "cardmarket-link": "",
+          "type": "IR",
+          "language": "Español"
+        },
+        {
+          "slot": 3,
+          "name": "Sliggoo",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_95.png",
+          "expansion": "Chaos Rising",
+          "code": "CRI095",
+          "format": "J",
+          "date": "2026-06-27",
+          "condition": "Near Mint (del sobre al blister)",
+          "price": "12€",
+          "cardmarket-link": "",
+          "type": "IR",
+          "language": "Español"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "cards": [
+        {
+          "slot": 1,
+          "name": "Espurr",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_95.png",
+          "expansion": "Perfect Order",
+          "code": "POR095",
+          "format": "J",
+          "date": "2026-05-16",
+          "condition": "Near Mint (del sobre al blister)",
+          "price": "7€",
+          "cardmarket-link": "",
+          "type": "IR",
+          "language": "Inglés"
+        },
+        {
+          "slot": 2,
+          "name": "Dhelmise",
+          "image": "null",
+          "expansion": "Pitch Black",
+          "code": "PBL091",
+          "format": "J",
+          "date": "2026-07-04",
+          "condition": "Near Mint (del sobre al blister, sacado en prerrelease)",
+          "price": "",
+          "cardmarket-link": "",
+          "type": "Estándar",
+          "language": "Inglés"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "cards": []
+    },
+    {
+      "number": 5,
+      "cards": []
+    },
+    {
+      "number": 6,
+      "cards": [
+        {
+          "slot": 1,
+          "name": "Rillaboom",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH45/SWSH45_ES_13.png",
+          "expansion": "Sword and Shield",
+          "code": "SSH14",
+          "format": "D (no válida en Estándar)",
+          "date": "2025-11-01",
+          "condition": "Near Mint (Pokémon League Promo)",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Foil",
+          "language": "Español"
+        },
+        {
+          "slot": 2,
+          "name": "Flapple",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH2/SWSH2_ES_22.png",
+          "expansion": "Choque Rebelde",
+          "code": "RCL 22",
+          "format": "D (no válida en Estándar)",
+          "date": "2026-02-07",
+          "condition": "Near Mint (Pokémon League Promo)",
+          "price": "0,20€ (restante: 1 en stock)",
+          "cardmarket-link": "",
+          "type": "Foil",
+          "language": "Español"
+        },
+        {
+          "slot": 3,
+          "name": "Tenacidad de Acromo",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV6PT5/SV6PT5_ES_57.png",
+          "expansion": "Fábula Sombría (Promos)",
+          "code": "SFA057",
+          "format": "H",
+          "date": "2026-06-27",
+          "condition": "Near Mint (Pokémon League Promo)",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Foil",
+          "language": "Español"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "cards": [
+        {
+          "slot": 1,
+          "name": "Kiawe",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM3/SM3_ES_116.png",
+          "expansion": "Sombras Ardientes",
+          "code": "BUS 116a",
+          "format": "Alternativas de Sol y Luna; no válida en Estándar.",
+          "date": "2026-01-31",
+          "condition": "Near Mint (Pokémon League Promo)",
+          "price": "0,80€ (restante: 4 en stock) - La foto que se muestra es incorrecta.",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Burning-Shadows/Kiawe-V3-BUS116a",
+          "type": "Foil",
+          "language": "Español"
+        },
+        {
+          "slot": 2,
+          "name": "Trompeta de Cristal",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV07/SV07_ES_135.png",
+          "expansion": "Corona Astral (Promos)",
+          "code": "SCR135",
+          "format": "H",
+          "date": "2025-07-13",
+          "condition": "Near Mint (Pokémon League Promo)",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Foil",
+          "language": "Español"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "cards": [
+        {
+          "slot": 1,
+          "name": "Investigación de Profesores (Profesor Oak)",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/CEL/CEL_ES_23.png",
+          "expansion": "Celebraciones",
+          "code": "BUS 116a",
+          "format": "D (no válida en Estándar)",
+          "date": "2026-06-07",
+          "condition": "Excellent (Promo 25 aniversario)",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Estándar",
+          "language": "Inglés"
+        },
+        {
+          "slot": 2,
+          "name": "Sylveon",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV8PT5/SV8PT5_ES_40.png",
+          "expansion": "Prismatic Evolutions: Adicionales",
+          "code": "PRE040",
+          "format": "H",
+          "date": "2026-01-31",
+          "condition": "Near Mint (Promo Pokémon Day 2025)",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Estándar",
+          "language": "Español"
+        },
+        {
+          "slot": 3,
+          "name": "Eevee",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV8PT5/SV8PT5_ES_74.png",
+          "expansion": "Prismatic Evolutions: Adicionales",
+          "code": "xPRE074",
+          "format": "H",
+          "date": "2025-05-16",
+          "condition": "Near Mint (Promo Pokémon Day 2025)",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Foil",
+          "language": "Español"
+        },
+        {
+          "slot": 4,
+          "name": "Bulbasaur",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_1.png",
+          "expansion": "Megaevolution: Adicionales",
+          "code": "MEG001",
+          "format": "I",
+          "date": "2026-03-01",
+          "condition": "Near Mint (Promo Pokémon Day 2026)",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Foil",
+          "language": "Español"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "cards": [
+        {
+          "slot": 4,
+          "name": "Eevee ex [Teracristal]",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV8PT5/SV8PT5_ES_75.png",
+          "expansion": "Sobre de premio de Play! (serie 7)",
+          "code": "PRE075",
+          "format": "H",
+          "date": "2026-02-21",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Español"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "cards": [
+        {
+          "slot": 2,
+          "name": "Jolteon",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV3PT5/SV3PT5_ES_135.png",
+          "expansion": "151",
+          "code": "MEW135",
+          "format": "H",
+          "date": "2025-09-27",
+          "condition": "Near Mint",
+          "price": "0,02€ &#8226; Se cambia por Jolteon ex (forma teracristal - Prismatic Ev. - 2€)",
+          "cardmarket-link": "",
+          "type": "Estándar",
+          "language": "Inglés"
+        },
+        {
+          "slot": 3,
+          "name": "Umbreon",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV8PT5/SV8PT5_ES_59.png",
+          "expansion": "Prismatic Evolutions",
+          "code": "PRE059",
+          "format": "G (no válida en torneos)",
+          "date": "2025-11-01",
+          "condition": "Near Mint",
+          "price": "0,02€ &#8226; Se cambia por Umbreon ex (forma teracristal - Prismatic Ev. - 5€)",
+          "cardmarket-link": "",
+          "type": "Foil",
+          "language": "Español"
+        },
+        {
+          "slot": 4,
+          "name": "Glaceon",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV8PT5/SV8PT5_ES_25.png",
+          "expansion": "Prismatic Evolutions",
+          "code": "PRE059",
+          "format": "H",
+          "date": "2025-11-01",
+          "condition": "Near Mint",
+          "price": "0,02€ &#8226; Se cambia por Glaceon ex (forma teracristal - Prismatic Ev. - 5€)",
+          "cardmarket-link": "",
+          "type": "Estándar",
+          "language": "Español"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "cards": [
+        {
+          "slot": 1,
+          "name": "Flareon ex [Teracristal]",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV8PT5/SV8PT5_ES_14.png",
+          "expansion": "Sobre de premio de Play! (serie 7)",
+          "code": "PRE014",
+          "format": "H",
+          "date": "2025-11-01",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Español"
+        },
+        {
+          "slot": 2,
+          "name": "Espeon ex [Teracristal]",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV8PT5/SV8PT5_ES_34.png",
+          "expansion": "Sobre de premio de Play! (serie 7)",
+          "code": "PRE034",
+          "format": "H",
+          "date": "2026-05-02",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Español"
+        },
+        {
+          "slot": 3,
+          "name": "Leafeon ex [Teracristal]",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV8PT5/SV8PT5_ES_6.png",
+          "expansion": "Sobre de premio de Play! (serie 7)",
+          "code": "PRE006",
+          "format": "H",
+          "date": "2025-12-06",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Español"
+        },
+        {
+          "slot": 4,
+          "name": "Sylveon ex [Teracristal]",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV08/SV08_ES_86.png",
+          "expansion": "Sobre de premio de Play! (serie 7)",
+          "code": "SSP086",
+          "format": "H",
+          "date": "2026-02-21",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Español"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "cards": [
+        {
+          "slot": 1,
+          "name": "Energía de Planta Creciente",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_86.png",
+          "expansion": "Perfect Order",
+          "code": "POR086",
+          "format": "J",
+          "date": "2026-03-21",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Estándar",
+          "language": "Español"
+        },
+        {
+          "slot": 3,
+          "name": "Energía de Psíquico Telepática",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_88.png",
+          "expansion": "Perfect Order",
+          "code": "POR088",
+          "format": "J",
+          "date": "2026-03-21",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Estándar",
+          "language": "Español"
+        },
+        {
+          "slot": 4,
+          "name": "Energía de Planta Creciente",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_87.png",
+          "expansion": "Perfect Order",
+          "code": "POR087",
+          "format": "J",
+          "date": "2026-04-11",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Estándar",
+          "language": "Inglés"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "cards": [
+        {
+          "slot": 1,
+          "name": "Energía de Agua Burbujeante",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_84.png",
+          "expansion": "Chaos Rising",
+          "code": "CRI084",
+          "format": "J",
+          "date": "",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Estándar",
+          "language": "Español"
+        },
+        {
+          "slot": 3,
+          "name": "Shadowy Dark Energy",
+          "image": "null",
+          "expansion": "Pitch Black",
+          "code": "PBL083",
+          "format": "J",
+          "date": "2026-07-04",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Estándar",
+          "language": "Inglés"
+        },
+        {
+          "slot": 4,
+          "name": "Energía Metálica Magnética",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_85.png",
+          "expansion": "Chaos Rising",
+          "code": "CRI085",
+          "format": "J",
+          "date": "",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Foil",
+          "language": "Inglés"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "cards": [
+        {
+          "slot": 1,
+          "name": "Pawmot (STAFF)",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SVP/SVP_ES_6.png",
+          "expansion": "SV Black Star Promos",
+          "code": "SVP006",
+          "format": "G (no válida en torneos)",
+          "date": "2026-05-09",
+          "condition": "Near Mint (con sello STAMP)",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Estándar",
+          "language": "Español"
+        },
+        {
+          "slot": 2,
+          "name": "Indeedee (STAFF)",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SVP/SVP_ES_154.png",
+          "expansion": "SV Black Star Promos",
+          "code": "SVP154",
+          "format": "H",
+          "date": "2026-05-09",
+          "condition": "Near Mint (con sello STAMP)",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Estándar",
+          "language": "Español"
+        },
+        {
+          "slot": 3,
+          "name": "Sprigatito",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SVP/SVP_ES_191.png",
+          "expansion": "SV Black Star Promos",
+          "code": "SVP191",
+          "format": "G (no válida en torneos)",
+          "date": "2026-01-31",
+          "condition": "Near Mint (Promo Horizontes con Liko + sealed)",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Foil",
+          "language": "Español"
+        },
+        {
+          "slot": 4,
+          "name": "Fuecoco",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SVP/SVP_ES_192.png",
+          "expansion": "SV Black Star Promos",
+          "code": "SVP192",
+          "format": "G (no válida en torneos)",
+          "date": "2026-04-25",
+          "condition": "Near Mint (Promo Horizontes con Rod + sealed)",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Foil",
+          "language": "Español"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "cards": [
+        {
+          "slot": 1,
+          "name": "Yveltal",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_88.png",
+          "expansion": "Megaevolution",
+          "code": "MEG088",
+          "format": "I",
+          "date": "2026-02-21",
+          "condition": "Near Mint (stamp Megaevolution + sealed)",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Foil",
+          "language": "Inglés"
+        },
+        {
+          "slot": 2,
+          "name": "Alakazam",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEP/MEP_ES_3.png",
+          "expansion": "MEP Black Star Promos",
+          "code": "MEP003",
+          "format": "I",
+          "date": "2025-10-04",
+          "condition": "Near Mint (stamp prerrelease Megaevolution)",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Estándar",
+          "language": "Español"
+        },
+        {
+          "slot": 3,
+          "name": "Serperior",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEP/MEP_ES_64.png",
+          "expansion": "MEP Black Star Promos",
+          "code": "MEP064",
+          "format": "J",
+          "date": "2026-03-21",
+          "condition": "Near Mint (stamp prerrelease Perfect Order)",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Estándar",
+          "language": "Español"
+        },
+        {
+          "slot": 4,
+          "name": "Slowbro",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEP/MEP_ES_83.png",
+          "expansion": "MEP Black Star Promos",
+          "code": "MEP083",
+          "format": "J",
+          "date": "2026-07-04",
+          "condition": "Near Mint (stamp prerrelease Pitch Black)",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Estándar",
+          "language": "Inglés"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "cards": [
+        {
+          "slot": 1,
+          "name": "Inteleon V",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSHP/SWSHP_ES_SWSH016.png",
+          "expansion": "SWSH Black Star Promos",
+          "code": "SWSH016",
+          "format": "D (no válida en torneos)",
+          "date": "2026-06-27",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Estándar",
+          "language": "Español"
+        },
+        {
+          "slot": 2,
+          "name": "Mega-Greninja ex",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_22.png",
+          "expansion": "Chaos Rising",
+          "code": "CRI022",
+          "format": "J",
+          "date": "2026-06-27",
+          "condition": "Near Mint (del sobre al blister)",
+          "price": "10€",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Español"
+        },
+        {
+          "slot": 3,
+          "name": "Tapu Koko ex",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV04/SV04_ES_68.png",
+          "expansion": "Paradox Rift",
+          "code": "PAR068",
+          "format": "G (no válida en torneos)",
+          "date": "",
+          "condition": "Excellent",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Español"
+        },
+        {
+          "slot": 4,
+          "name": "Mega-Manectric ex",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_50.png",
+          "expansion": "Megaevolution",
+          "code": "MEG050",
+          "format": "I",
+          "date": "2025-12-20",
+          "condition": "Near Mint (del sobre al blister)",
+          "price": "2€",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Inglés"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "cards": [
+        {
+          "slot": 1,
+          "name": "Ogerpon Máscara Fuente ex",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV8PT5/SV8PT5_ES_27.png",
+          "expansion": "Prismatic Evolutions",
+          "code": "PRE027",
+          "format": "H",
+          "date": "2026-05-09",
+          "condition": "Near Mint",
+          "price": "0,50€",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Inglés"
+        },
+        {
+          "slot": 2,
+          "name": "Cinderace ex [Teracristal]",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_38.png",
+          "expansion": "Ascended Heroes",
+          "code": "ASC038",
+          "format": "H",
+          "date": "2026-06-27",
+          "condition": "Near Mint",
+          "price": "2026-06-20",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Español"
+        },
+        {
+          "slot": 3,
+          "name": "Mega-Gardevoir ex",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_60.png",
+          "expansion": "Megaevolution",
+          "code": "MEG060",
+          "format": "I",
+          "date": "2026-04-12",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Español"
+        },
+        {
+          "slot": 4,
+          "name": "Ferrotesta ex",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV05/SV05_ES_81.png",
+          "expansion": "Cyber Judge",
+          "code": "sv5M 036",
+          "format": "H (no válida en torneos)",
+          "date": "2026-06-07",
+          "condition": "Near Mint",
+          "price": "",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Japonés"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "cards": [
+        {
+          "slot": 1,
+          "name": "Palossand ex",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV08/SV08_ES_221.png",
+          "expansion": "Surging Sparks",
+          "code": "SSP221",
+          "format": "H",
+          "date": "2025-06-21",
+          "condition": "Near Mint (desgaste mínimo)",
+          "price": "5€",
+          "cardmarket-link": "",
+          "type": "Ultra Rara",
+          "language": "Español"
+        },
+        {
+          "slot": 2,
+          "name": "Mega-Chandelure ex",
+          "image": "null",
+          "expansion": "Pitch Black",
+          "code": "PBL099",
+          "format": "J",
+          "date": "2026-07-04",
+          "condition": "Near Mint (del sobre al blister, sacado en prerrelease)",
+          "price": "",
+          "cardmarket-link": "",
+          "type": "Ultra Rara",
+          "language": "Inglés"
+        },
+        {
+          "slot": 3,
+          "name": "Mabosstiff ex de Damián",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_139.png",
+          "expansion": "Destined Rivals",
+          "code": "DRI139",
+          "format": "H",
+          "date": "2025-06-21",
+          "condition": "Near Mint",
+          "price": "1,5€",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Español"
+        },
+        {
+          "slot": 4,
+          "name": "Morpeko ex",
+          "image": "null",
+          "expansion": "Pitch Black",
+          "code": "PBL055",
+          "format": "J",
+          "date": "2026-07-04",
+          "condition": "Near Mint (del sobre al blister, sacado en prerrelease)",
+          "price": "",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Español"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "cards": [
+        {
+          "slot": 1,
+          "name": "Farigiraf ex [Teracristal]",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV05/SV05_ES_108.png",
+          "expansion": "Blade Awakening",
+          "code": "CSV7C 141",
+          "format": "H (no válida en torneos)",
+          "date": "2026-04-11",
+          "condition": "Near Mint",
+          "price": "1€",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Chino"
+        },
+        {
+          "slot": 2,
+          "name": "Mega-Absol ex",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_86.png",
+          "expansion": "Sobre de premio de Play! (serie 8)",
+          "code": "MEG086",
+          "format": "I",
+          "date": "2026-05-16",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Español"
+        },
+        {
+          "slot": 3,
+          "name": "Melmetal ex",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SVP/SVP_ES_104.png",
+          "expansion": "SV Black Star Promos",
+          "code": "SVP104",
+          "format": "G (no válida en torneos)",
+          "date": "2025-05-16",
+          "condition": "Near Mint (desgaste mínimo)",
+          "price": "NO TRADE (promo)",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Español"
+        },
+        {
+          "slot": 4,
+          "name": "Mega-Excadrill ex",
+          "image": "null",
+          "expansion": "Pitch Black",
+          "code": "PBL061",
+          "format": "G (no válida en torneos)",
+          "date": "2026-07-04",
+          "condition": "Near Mint (del sobre al blister, sacado en prerrelease)",
+          "price": "",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Inglés"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "cards": [
+        {
+          "slot": 1,
+          "name": "Paul",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH1/SWSH1_ES_165.png",
+          "expansion": "Sword and Shield",
+          "code": "SSH165",
+          "format": "D (no válida en torneos)",
+          "date": "2025-10-04",
+          "condition": "Excellent",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Estándar",
+          "language": "Español"
+        },
+        {
+          "slot": 2,
+          "name": "Lucario ex",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV8PT5/SV8PT5_ES_51.png",
+          "expansion": "Prismatic Evolutions",
+          "code": "PRE051",
+          "format": "H",
+          "date": "2026-05-09",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Inglés"
+        },
+        {
+          "slot": 3,
+          "name": "Energía de Lucha Piedra",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_164.png",
+          "expansion": "Voltaje Vivido",
+          "code": "VIV164",
+          "format": "H",
+          "date": "2026-06-13",
+          "condition": "Excellent",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Estándar",
+          "language": "Inglés"
+        },
+        {
+          "slot": 4,
+          "name": "Gengar",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_50.png",
+          "expansion": "Perfect Order",
+          "code": "POR050",
+          "format": "J",
+          "date": "2026-03-21",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Estándar",
+          "language": "Español"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "cards": [
+        {
+          "slot": 1,
+          "name": "Zeraora V",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12PT5/SWSH12PT5_ES_53.png",
+          "expansion": "Cenit Supremo",
+          "code": "CRZ053",
+          "format": "F (no válida en torneos)",
+          "date": "2026-03-21",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Estándar",
+          "language": "Español"
+        },
+        {
+          "slot": 2,
+          "name": "Mega-Gardevoir ex",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_60.png",
+          "expansion": "Sobre de premio de Play! (serie 8)",
+          "code": "MEG060",
+          "format": "I",
+          "date": "2026-05-02",
+          "condition": "Near Mint (del sobre al blister)",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Español"
+        },
+        {
+          "slot": 3,
+          "name": "Incineroar ex",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV05/SV05_ES_34.png",
+          "expansion": "Temporal Forces",
+          "code": "TEF034",
+          "format": "H",
+          "date": "2026-01-31",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Español"
+        },
+        {
+          "slot": 4,
+          "name": "Cinderace",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSHP/SWSHP_ES_SWSH278.png",
+          "expansion": "SWSH Black Star Promos",
+          "code": "SWSH278",
+          "format": "E (no válida en torneos)",
+          "date": "2026-05-02",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Estándar",
+          "language": "Español"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "cards": [
+        {
+          "slot": 1,
+          "name": "Eevee",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/BW9/BW9_ES_90.png",
+          "expansion": "Glaciación Plasma",
+          "code": "PLF 90",
+          "format": "C (no válida en torneos)",
+          "date": "2025-08-01",
+          "condition": "Good",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Common",
+          "language": "Español"
+        },
+        {
+          "slot": 2,
+          "name": "Riolu",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12PT5GG/SWSH12PT5GG_ES_GG26.png",
+          "expansion": "Cenit Supremo",
+          "code": "CRZ GG26",
+          "format": "F (no válida en torneos)",
+          "date": "2025-09-27",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "IR",
+          "language": "Inglés"
+        },
+        {
+          "slot": 3,
+          "name": "Sprigatito",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV02/SV02_ES_12.png",
+          "expansion": "Evoluciones en Paldea",
+          "code": "PAL012",
+          "format": "G (no válida en torneos)",
+          "date": "2026-05-23",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Common",
+          "language": "Inglés"
+        },
+        {
+          "slot": 4,
+          "name": "Sobble",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_39.png",
+          "expansion": "Megaevolution",
+          "code": "MEG039",
+          "format": "I",
+          "date": "2026-03-01",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Common + Foil",
+          "language": "Español"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "cards": []
+    },
+    {
+      "number": 24,
+      "cards": [
+        {
+          "slot": 1,
+          "name": "Riolu",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH9/SWSH9_ES_78.png",
+          "expansion": "Astros Brillantes",
+          "code": "BRS078",
+          "format": "F (no válida en torneos)",
+          "date": "2025-09-27",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Common",
+          "language": "Inglés"
+        },
+        {
+          "slot": 2,
+          "name": "Riolu",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12PT5/SWSH12PT5_ES_71.png",
+          "expansion": "Crown Zenit",
+          "code": "CRZ071",
+          "format": "F (no válida en torneos)",
+          "date": "2026-05-11",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Common",
+          "language": "Inglés"
+        },
+        {
+          "slot": 3,
+          "name": "Riolu",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV8PT5/SV8PT5_ES_50.png",
+          "expansion": "Prismatic Evolutions",
+          "code": "PRE050",
+          "format": "H",
+          "date": "2025-11-01",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Common",
+          "language": "Español"
+        },
+        {
+          "slot": 4,
+          "name": "Riolu",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEP/MEP_ES_10.png",
+          "expansion": "MEP Black Star Promos",
+          "code": "MEP010",
+          "format": "I",
+          "date": "2026-05-16",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Promo",
+          "language": "Español"
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "cards": [
+        {
+          "slot": 1,
+          "name": "Riolu",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV01/SV01_ES_112.png",
+          "expansion": "Escarlata y Púrpura",
+          "code": "SVI112",
+          "format": "G (no válida en torneos)",
+          "date": "2025-09-27",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Common",
+          "language": "Inglés"
+        },
+        {
+          "slot": 2,
+          "name": "Riolu",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV01/SV01_ES_113.png",
+          "expansion": "Escarlata y Púrpura",
+          "code": "SVI113",
+          "format": "G (no válida en torneos)",
+          "date": "2025-10-04",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Common",
+          "language": "Español"
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "cards": [
+        {
+          "slot": 1,
+          "name": "Lucario",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV01/SV01_ES_114.png",
+          "expansion": "Escarlata y Púrpura",
+          "code": "SVI114",
+          "format": "G (no válida en torneos)",
+          "date": "2026-05-14",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Uncommon",
+          "language": "Español"
+        },
+        {
+          "slot": 2,
+          "name": "Lucario ex",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV07/SV07_ES_82.png",
+          "expansion": "Corona Astral",
+          "code": "SCR082",
+          "format": "H",
+          "date": "2026-06-13",
+          "condition": "Near Mint",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Español"
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "cards": [
+        {
+          "slot": 1,
+          "name": "Mega-Lucario ex",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_77.png",
+          "expansion": "Megaevolution",
+          "code": "MEG077",
+          "format": "I",
+          "date": "2025-10-04",
+          "condition": "Near Mint (intercambiado en prerrelease)",
+          "price": "NO TRADE",
+          "cardmarket-link": "",
+          "type": "Double Rare",
+          "language": "Español"
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "cards": []
+    },
+    {
+      "number": 29,
+      "cards": []
+    },
+    {
+      "number": 30,
+      "cards": []
+    },
+    {
+      "number": 31,
+      "cards": []
+    },
+    {
+      "number": 32,
+      "cards": []
+    },
+    {
+      "number": 33,
+      "cards": []
+    },
+    {
+      "number": 34,
+      "cards": []
+    },
+    {
+      "number": 35,
+      "cards": []
+    },
+    {
+      "number": 36,
+      "cards": []
+    },
+    {
+      "number": 37,
+      "cards": []
+    },
+    {
+      "number": 38,
+      "cards": []
+    },
+    {
+      "number": 39,
+      "cards": []
+    },
+    {
+      "number": 40,
+      "cards": []
+    }
+  ]
+}
