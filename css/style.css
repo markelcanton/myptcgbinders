@@ -186,7 +186,7 @@ header { animation-delay: 0.1s; }
 main { animation-delay: 0.3s; }
 footer { animation-delay: 0.5s; }
 
-/*@media (max-width: 600px) {
+@media (max-width: 600px) {
     header {
         flex-direction: column;
         padding: 15px;
@@ -212,4 +212,4 @@ footer { animation-delay: 0.5s; }
         padding-left: 15px;
         padding-right: 15px;
     }
-}*/
+}
