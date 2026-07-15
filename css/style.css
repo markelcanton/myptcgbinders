@@ -28,10 +28,6 @@ header {
     border-radius: 15px;
 }
 
-header > img {
-    width: 350px;
-}
-
 header > nav.nav-buttons {
     margin-left: auto;
 }
@@ -189,13 +185,7 @@ footer { animation-delay: 0.5s; }
 @media (max-width: 600px) {
     header {
         flex-direction: column;
-        padding: 15px;
         text-align: center;
-    }
-
-    header > img {
-        width: 80%;
-        margin-bottom: 15px;
     }
 
     header > nav.nav-buttons {
@@ -211,18 +201,5 @@ footer { animation-delay: 0.5s; }
     main > * {
         padding-left: 15px;
         padding-right: 15px;
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        padding: 10px;
-        overflow-x: hidden;
-    }
-    header {
-        flex-direction: column;
-        gap: 8px;
-        padding: 10px;
-        text-align: center;
     }
 }
