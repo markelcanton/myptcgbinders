@@ -307,11 +307,10 @@
 
     .page-side {
         width: 100%;
-        max-width: 340px; 
+        max-width: 310px /*340px*/;
         aspect-ratio: 340 / 460;
         border-radius: 8px !important; 
         border: 1px solid #30363d !important;
-        
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
