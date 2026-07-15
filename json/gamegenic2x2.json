@@ -17,7 +17,7 @@
           "date": "2026-05-02",
           "condition": "Near Mint (del sobre al blister)",
           "price": "10€",
-          "cardmarket-link": "",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Exeggutor-V2-MEG135?language=1&minCondition=2",
           "type": "IR",
           "language": "Inglés"
         },
@@ -31,7 +31,7 @@
           "date": "2026-03-21",
           "condition": "Near Mint (del sobre al blister, sacado en prerrelease)",
           "price": "7€",
-          "cardmarket-link": "",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Aurorus-V2-POR092?language=4&minCondition=2",
           "type": "IR",
           "language": "Español"
         },
@@ -45,7 +45,7 @@
           "date": "2026-06-27",
           "condition": "Near Mint (del sobre al blister)",
           "price": "12€",
-          "cardmarket-link": "",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Sliggoo-V2-CRI094?language=4&minCondition=2",
           "type": "IR",
           "language": "Español"
         }
@@ -64,7 +64,7 @@
           "date": "2026-05-16",
           "condition": "Near Mint (del sobre al blister)",
           "price": "7€",
-          "cardmarket-link": "",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Espurr-V2-POR095?language=1&minCondition=2",
           "type": "IR",
           "language": "Inglés"
         },
@@ -77,9 +77,9 @@
           "format": "J",
           "date": "2026-07-04",
           "condition": "Near Mint (del sobre al blister, sacado en prerrelease)",
-          "price": "",
-          "cardmarket-link": "",
-          "type": "Estándar",
+          "price": "20€",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Dhelmise-V2-PBL091?language=1&minCondition=2",
+          "type": "IR",
           "language": "Inglés"
         }
       ]
@@ -105,8 +105,8 @@
           "date": "2025-11-01",
           "condition": "Near Mint (Pokémon League Promo)",
           "price": "NO TRADE",
-          "cardmarket-link": "",
-          "type": "Foil",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Sword-Shield/Rillaboom-V2-SSH14?language=4&minCondition=2",
+          "type": "Promo + Foil",
           "language": "Español"
         },
         {
@@ -118,23 +118,23 @@
           "format": "D (no válida en Estándar)",
           "date": "2026-02-07",
           "condition": "Near Mint (Pokémon League Promo)",
-          "price": "0,20€ (restante: 1 en stock)",
-          "cardmarket-link": "",
-          "type": "Foil",
+          "price": "1€ (restante: 1 en stock)",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Rebel-Clash/Flapple-V1-RCL22?language=4&minCondition=2&isReverseHolo=Y",
+          "type": "Promo + Foil",
           "language": "Español"
         },
         {
           "slot": 3,
           "name": "Tenacidad de Acromo",
           "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV6PT5/SV6PT5_ES_57.png",
-          "expansion": "Fábula Sombría (Promos)",
+          "expansion": "Promos",
           "code": "SFA057",
           "format": "H",
           "date": "2026-06-27",
           "condition": "Near Mint (Pokémon League Promo)",
           "price": "NO TRADE",
-          "cardmarket-link": "",
-          "type": "Foil",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Promos/Colresss-Tenacity-PRSFA-057?language=4&minCondition=2",
+          "type": "Promo + Foil",
           "language": "Español"
         }
       ]
@@ -153,21 +153,21 @@
           "condition": "Near Mint (Pokémon League Promo)",
           "price": "0,80€ (restante: 4 en stock) - La foto que se muestra es incorrecta.",
           "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Burning-Shadows/Kiawe-V3-BUS116a",
-          "type": "Foil",
+          "type": "Promo + Foil",
           "language": "Español"
         },
         {
           "slot": 2,
           "name": "Trompeta de Cristal",
           "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV07/SV07_ES_135.png",
-          "expansion": "Corona Astral (Promos)",
+          "expansion": "Promos",
           "code": "SCR135",
           "format": "H",
           "date": "2025-07-13",
           "condition": "Near Mint (Pokémon League Promo)",
           "price": "NO TRADE",
-          "cardmarket-link": "",
-          "type": "Foil",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Promos/Glass-Trumpet-PRSCR-135?language=4&minCondition=2",
+          "type": "Promo + Foil",
           "language": "Español"
         }
       ]
@@ -180,13 +180,13 @@
           "name": "Investigación de Profesores (Profesor Oak)",
           "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/CEL/CEL_ES_23.png",
           "expansion": "Celebraciones",
-          "code": "BUS 116a",
+          "code": "CEL023",
           "format": "D (no válida en Estándar)",
           "date": "2026-06-07",
           "condition": "Excellent (Promo 25 aniversario)",
           "price": "NO TRADE",
-          "cardmarket-link": "",
-          "type": "Estándar",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Celebrations/Professors-Research-Professor-Oak-V1-CEL023?language=4&minCondition=3",
+          "type": "Rare Holo",
           "language": "Inglés"
         },
         {
@@ -199,8 +199,8 @@
           "date": "2026-01-31",
           "condition": "Near Mint (Promo Pokémon Day 2025)",
           "price": "NO TRADE",
-          "cardmarket-link": "",
-          "type": "Estándar",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Prismatic-Evolutions-Additionals/Sylveon-V3-xPRE040?language=4&minCondition=2",
+          "type": "Promo",
           "language": "Español"
         },
         {
@@ -213,8 +213,8 @@
           "date": "2025-05-16",
           "condition": "Near Mint (Promo Pokémon Day 2025)",
           "price": "NO TRADE",
-          "cardmarket-link": "",
-          "type": "Foil",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Prismatic-Evolutions-Additionals/Eevee-V3-xPRE074?language=4&minCondition=2",
+          "type": "Promo + Foil",
           "language": "Español"
         },
         {
@@ -222,13 +222,13 @@
           "name": "Bulbasaur",
           "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_1.png",
           "expansion": "Megaevolution: Adicionales",
-          "code": "MEG001",
+          "code": "xMEG001",
           "format": "I",
           "date": "2026-03-01",
-          "condition": "Near Mint (Promo Pokémon Day 2026)",
+          "condition": "Near Mint (Promo Pokémon Day 2026, directo al blister)",
           "price": "NO TRADE",
-          "cardmarket-link": "",
-          "type": "Foil",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution-Additionals/Bulbasaur-V2-xMEG001?language=4&minCondition=2",
+          "type": "Promo + Foil",
           "language": "Español"
         }
       ]
@@ -246,8 +246,8 @@
           "date": "2026-02-21",
           "condition": "Near Mint",
           "price": "NO TRADE",
-          "cardmarket-link": "",
-          "type": "Double Rare",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Eevee-ex-PPS7PRE-075?language=4&minCondition=2",
+          "type": "Prize Pack Series (Double Rare)",
           "language": "Español"
         }
       ]
@@ -265,8 +265,8 @@
           "date": "2025-09-27",
           "condition": "Near Mint",
           "price": "0,02€ &#8226; Se cambia por Jolteon ex (forma teracristal - Prismatic Ev. - 2€)",
-          "cardmarket-link": "",
-          "type": "Estándar",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/151/Jolteon-MEW135?language=1&minCondition=2",
+          "type": "Rare",
           "language": "Inglés"
         },
         {
@@ -279,8 +279,8 @@
           "date": "2025-11-01",
           "condition": "Near Mint",
           "price": "0,02€ &#8226; Se cambia por Umbreon ex (forma teracristal - Prismatic Ev. - 5€)",
-          "cardmarket-link": "",
-          "type": "Foil",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Prismatic-Evolutions/Umbreon-PRE059?language=4&minCondition=2&isReverseHolo=Y",
+          "type": "Rare + Foil",
           "language": "Español"
         },
         {
@@ -288,13 +288,13 @@
           "name": "Glaceon",
           "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV8PT5/SV8PT5_ES_25.png",
           "expansion": "Prismatic Evolutions",
-          "code": "PRE059",
+          "code": "PRE025",
           "format": "H",
           "date": "2025-11-01",
           "condition": "Near Mint",
           "price": "0,02€ &#8226; Se cambia por Glaceon ex (forma teracristal - Prismatic Ev. - 5€)",
-          "cardmarket-link": "",
-          "type": "Estándar",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Prismatic-Evolutions/Glaceon-PRE025?language=4&minCondition=2",
+          "type": "Rare",
           "language": "Español"
         }
       ]
@@ -312,8 +312,8 @@
           "date": "2025-11-01",
           "condition": "Near Mint",
           "price": "NO TRADE",
-          "cardmarket-link": "",
-          "type": "Double Rare",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Flareon-ex-PPS7PRE-014?language=4&minCondition=2",
+          "type": "Prize Pack Series (Double Rare)",
           "language": "Español"
         },
         {
@@ -326,8 +326,8 @@
           "date": "2026-05-02",
           "condition": "Near Mint",
           "price": "NO TRADE",
-          "cardmarket-link": "",
-          "type": "Double Rare",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Espeon-ex-PPS7PRE-034?language=4&minCondition=2",
+          "type": "Prize Pack Series (Double Rare)",
           "language": "Español"
         },
         {
@@ -340,8 +340,8 @@
           "date": "2025-12-06",
           "condition": "Near Mint",
           "price": "NO TRADE",
-          "cardmarket-link": "",
-          "type": "Double Rare",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Leafeon-ex-PPS7PRE-006?language=4&minCondition=2",
+          "type": "Prize Pack Series (Double Rare)",
           "language": "Español"
         },
         {
@@ -354,8 +354,8 @@
           "date": "2026-02-21",
           "condition": "Near Mint",
           "price": "NO TRADE",
-          "cardmarket-link": "",
-          "type": "Double Rare",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Sylveon-ex-PPS7SSP-086?language=4&minCondition=2",
+          "type": "Prize Pack Series (Double Rare)",
           "language": "Español"
         }
       ]
@@ -373,8 +373,8 @@
           "date": "2026-03-21",
           "condition": "Near Mint",
           "price": "NO TRADE",
-          "cardmarket-link": "",
-          "type": "Estándar",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Growing-G-Energy-POR086?language=4&minCondition=2",
+          "type": "Rare",
           "language": "Español"
         },
         {
@@ -387,13 +387,13 @@
           "date": "2026-03-21",
           "condition": "Near Mint",
           "price": "NO TRADE",
-          "cardmarket-link": "",
-          "type": "Estándar",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Telepathic-P-Energy-POR088?language=4&minCondition=2",
+          "type": "Rare",
           "language": "Español"
         },
         {
           "slot": 4,
-          "name": "Energía de Planta Creciente",
+          "name": "Energía de Lucha Rocosa",
           "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_87.png",
           "expansion": "Perfect Order",
           "code": "POR087",
@@ -401,8 +401,8 @@
           "date": "2026-04-11",
           "condition": "Near Mint",
           "price": "NO TRADE",
-          "cardmarket-link": "",
-          "type": "Estándar",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Rocky-F-Energy-POR087?language=1&minCondition=2",
+          "type": "Rare",
           "language": "Inglés"
         }
       ]
@@ -420,8 +420,8 @@
           "date": "",
           "condition": "Near Mint",
           "price": "NO TRADE",
-          "cardmarket-link": "",
-          "type": "Estándar",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Bubbly-W-Energy-CRI084?language=4&minCondition=2",
+          "type": "Rare",
           "language": "Español"
         },
         {
@@ -434,8 +434,8 @@
           "date": "2026-07-04",
           "condition": "Near Mint",
           "price": "NO TRADE",
-          "cardmarket-link": "",
-          "type": "Estándar",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Shadowy-D-Energy-PBL083?language=1&minCondition=2",
+          "type": "Rare",
           "language": "Inglés"
         },
         {
@@ -448,8 +448,8 @@
           "date": "",
           "condition": "Near Mint",
           "price": "NO TRADE",
-          "cardmarket-link": "",
-          "type": "Foil",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Magnetic-M-Energy-CRI085?language=1&minCondition=2&isReverseHolo=Y",
+          "type": "Rare + Foil",
           "language": "Inglés"
         }
       ]
@@ -465,10 +465,10 @@
           "code": "SVP006",
           "format": "G (no válida en torneos)",
           "date": "2026-05-09",
-          "condition": "Near Mint (con sello STAMP)",
+          "condition": "Near Mint",
           "price": "NO TRADE",
-          "cardmarket-link": "",
-          "type": "Estándar",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SV-Black-Star-Promos/Pawmot-V2-SVP006?language=4&minCondition=2",
+          "type": "Promo",
           "language": "Español"
         },
         {
@@ -479,10 +479,10 @@
           "code": "SVP154",
           "format": "H",
           "date": "2026-05-09",
-          "condition": "Near Mint (con sello STAMP)",
+          "condition": "Near Mint",
           "price": "NO TRADE",
-          "cardmarket-link": "",
-          "type": "Estándar",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SV-Black-Star-Promos/Indeedee-V2-SVP154?language=4&minCondition=2",
+          "type": "Promo",
           "language": "Español"
         },
         {
@@ -495,8 +495,8 @@
           "date": "2026-01-31",
           "condition": "Near Mint (Promo Horizontes con Liko + sealed)",
           "price": "NO TRADE",
-          "cardmarket-link": "",
-          "type": "Foil",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SV-Black-Star-Promos/Sprigatito-SVP191?language=4&minCondition=2",
+          "type": "Promo + Foil",
           "language": "Español"
         },
         {
@@ -509,8 +509,8 @@
           "date": "2026-04-25",
           "condition": "Near Mint (Promo Horizontes con Rod + sealed)",
           "price": "NO TRADE",
-          "cardmarket-link": "",
-          "type": "Foil",
+          "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SV-Black-Star-Promos/Fuecoco-SVP192?language=4&minCondition=2",
+          "type": "Promo + Foil",
           "language": "Español"
         }
       ]
