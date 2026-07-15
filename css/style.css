@@ -213,3 +213,16 @@ footer { animation-delay: 0.5s; }
         padding-right: 15px;
     }
 }
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+        overflow-x: hidden;
+    }
+    header {
+        flex-direction: column;
+        gap: 8px;
+        padding: 10px;
+        text-align: center;
+    }
+}
