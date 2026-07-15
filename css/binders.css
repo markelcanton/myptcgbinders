@@ -297,7 +297,7 @@
     font-weight: bold;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .binder-book {
         flex-direction: column;
         padding: 10px;
