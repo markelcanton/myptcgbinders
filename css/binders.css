@@ -300,26 +300,21 @@
 @media (max-width: 600px) {
     .binder-book {
         flex-direction: column;
-        padding: 8px;
+        padding: 10px;
         align-items: center;
         gap: 10px;
-        width: 100%;
-        box-sizing: border-box;
     }
 
     .page-side {
-        width: 100% !important;
-        max-width: 320px !important;
+        width: 100%;
+        max-width: 340px; 
         aspect-ratio: 340 / 460;
-        height: auto !important;
         border-radius: 8px !important; 
         border: 1px solid #30363d !important;
-        padding: 12px !important;
         
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        box-sizing: border-box;
     }
 
     .binder-book .page-side.hidden-side,
@@ -330,16 +325,11 @@
     .binder-controls {
         flex-direction: column;
         gap: 10px;
-        width: 100%;
-        box-sizing: border-box;
-        border-radius: 15px;
-        padding: 12px;
+        width: auto;
     }
 
     .album-select-container {
         margin-right: 0;
-        width: 100%;
-        justify-content: center;
     }
 
     .modal-overlay {
@@ -348,8 +338,29 @@
     }
 
     .modal-content {
-        width: 95%;
-        margin: 20px auto;
-        padding: 15px;
+        width: 100% !important;
+        min-height: 100%;
+        border-radius: 0 !important;
+        border: none !important;
+        padding: 60px 20px 30px 20px;
+        box-sizing: border-box;
+    }
+
+    .modal-grid {
+        grid-template-columns: 1fr !important;
+        gap: 20px;
+    }
+
+    .modal-img img {
+        max-width: 260px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .close-btn {
+        top: 15px;
+        right: 20px;
+        font-size: 35px;
+        z-index: 2001;
     }
 }
