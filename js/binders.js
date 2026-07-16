@@ -24,7 +24,7 @@ async function loadAllBinders() {
 }
 
 function isMobile() {
-    return window.innerWidth <= 768;
+    return window.innerWidth <= 600;
 }
 
 function initNavigation() {
