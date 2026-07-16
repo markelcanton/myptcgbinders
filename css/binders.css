@@ -297,7 +297,7 @@
     font-weight: bold;
 }
 
-@media (max-width: 768px) { /* Sincronizado con tu JS a 768px */
+@media (max-width: 600px) {
     .binder-book {
         flex-direction: column;
         padding: 10px;
@@ -308,43 +308,12 @@
     .page-side {
         width: 100%;
         max-width: 310px;
-        height: auto; /* Permite que la altura crezca de forma dinámica */
-        padding: 12px; /* Reducimos el padding para ganar espacio interior */
-        box-sizing: border-box;
+        aspect-ratio: 340 / 460;
         border-radius: 8px !important; 
         border: 1px solid #30363d !important;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-    }
-
-    /* Reducimos los espacios (gaps) en móviles para que las cartas quepan perfectamente */
-    .cards-grid-2x2 {
-        gap: 8px !important;
-        margin-top: 10px !important;
-        height: auto !important; /* Evita colapsos de altura en flexbox */
-    }
-
-    .cards-grid-3x3 {
-        gap: 6px !important;
-        margin-top: 10px !important;
-        height: auto !important;
-    }
-
-    .cards-grid-jumbo {
-        margin-top: 10px !important;
-        height: auto !important;
-    }
-
-    /* Ajustamos el indicador de página para que no se pise con las cartas */
-    .page-number-indicator {
-        position: relative !important;
-        bottom: auto !important;
-        left: auto !important;
-        right: auto !important;
-        text-align: center;
-        margin-top: 12px;
-        display: block;
     }
 
     .binder-book .page-side.hidden-side,
@@ -392,5 +361,34 @@
         right: 20px;
         font-size: 35px;
         z-index: 2001;
+    }
+}
+
+@media (max-width: 768px) {
+    .binder-controls {
+        flex-wrap: wrap;
+        border-radius: 15px;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+
+    .album-select-container {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .binder-book {
+        padding: 15px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .page-side {
+        width: 100%;
+        max-width: 340px; 
+        height: auto;
+        aspect-ratio: 340 / 460;
     }
 }
