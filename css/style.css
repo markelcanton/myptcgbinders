@@ -87,17 +87,6 @@ main > * {
 }
 
 footer {
-    /*background-color: white;
-    padding: 10px;
-    padding-left: 10px;
-    padding-right: 0px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 9px;
-    justify-content: center;
-    text-align: center;
-    width: 100%;*/
-
     background-color: white;
     padding: 10px;
     padding-left: 10px;
@@ -111,20 +100,6 @@ footer {
 .disclaimer {
     padding-top: 7px;
     font-size: 15px;
-}
-
-main hr.quiz {
-    border-color: lightgray;
-    size: 1;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-main:not(.quiz) hr {
-    border-color: lightgray;
-    size: 1;
-    margin-left: 12px;
-    margin-right: 12px;
 }
 
 main a {
@@ -182,10 +157,11 @@ header { animation-delay: 0.1s; }
 main { animation-delay: 0.3s; }
 footer { animation-delay: 0.5s; }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     header {
         flex-direction: column;
         text-align: center;
+        padding: 5px;
     }
 
     header > nav.nav-buttons {
@@ -195,11 +171,6 @@ footer { animation-delay: 0.5s; }
     }
 
     body {
-        padding: 8px; /* Menor padding para ganar anchura en el móvil */
-    }
-
-    main > * {
-        padding-left: 10px; /* Reducimos a 10px para evitar asfixiar el contenido */
-        padding-right: 10px;
+        padding: 15px;
     }
 }
