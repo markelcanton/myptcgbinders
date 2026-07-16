@@ -182,7 +182,7 @@ header { animation-delay: 0.1s; }
 main { animation-delay: 0.3s; }
 footer { animation-delay: 0.5s; }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     header {
         flex-direction: column;
         text-align: center;
@@ -195,11 +195,11 @@ footer { animation-delay: 0.5s; }
     }
 
     body {
-        padding: 10px;
+        padding: 8px; /* Menor padding para ganar anchura en el móvil */
     }
 
     main > * {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 10px; /* Reducimos a 10px para evitar asfixiar el contenido */
+        padding-right: 10px;
     }
 }
