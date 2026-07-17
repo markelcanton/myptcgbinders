@@ -2,12 +2,39 @@ let jsonFile = '';
 let gridType = '2x2'; 
 
 let allPagesData = []; 
-let currentView = 0;   
+let currentPage = 1;   
+
+function showEmptyMessage() {
+    const bookContainer = document.getElementById('binder-book');
+    if (bookContainer) {
+        bookContainer.innerHTML = `
+            <div class="page-side" style="display: flex; align-items: center; justify-content: center; text-align: center; margin: 0 auto; border-radius: 8px;">
+                <div style="color: #8b949e; padding: 20px; font-size: 22px; font-family: sans-serif;">
+                    Este álbum aún no tiene datos configurados.
+                </div>
+            </div>
+        `;
+    }
+}
+
+function toggleNavigation(show) {
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const pageSelect = document.querySelector('.page-select-container');
+    const viewModeContainer = document.getElementById('view-mode-container'); 
+
+    const display = show ? '' : 'none'; 
+    
+    if (prevBtn) prevBtn.style.display = display;
+    if (nextBtn) nextBtn.style.display = display;
+    if (pageSelect) pageSelect.style.display = display;
+    if (viewModeContainer) viewModeContainer.style.display = display;
+}
 
 async function loadAllBinders() {
     try {
         const response = await fetch(jsonFile);
-        if (!response.ok) throw new Error(`No se pudo cargar ${jsonFile}`);
+        if (!response.ok) throw new Error(`Error al cargar el archivo JSON "${jsonFile}"`);
         
         const data = await response.json();
         allPagesData = data.pages.sort((a, b) => a.number - b.number);
@@ -15,16 +42,20 @@ async function loadAllBinders() {
         initNavigation();
         renderCurrentView();
     } catch (error) {
-        console.error("Error cargando el archivo de álbum:", error);
-        const bookContainer = document.getElementById('binder-book');
-        if (bookContainer) bookContainer.innerHTML = '<div style="color:white; padding:20px;">Este álbum aún no tiene datos configurados.</div>';
-        const select = document.getElementById('page-select');
-        if (select) select.innerHTML = '';
+        console.error("Error al cargar el archivo: ", error);
+        
+        allPagesData = []; 
+        currentPage = 1;
+        
+        showEmptyMessage(); 
+        
+        const input = document.getElementById('page-input');
+        const totalLabel = document.getElementById('total-pages-label');
+        if (input) input.value = '0';
+        if (totalLabel) totalLabel.textContent = '/ 0';
+        
+        toggleNavigation(false);
     }
-}
-
-function isMobile() {
-    return window.innerWidth <= 600;
 }
 
 function initNavigation() {
@@ -34,13 +65,20 @@ function initNavigation() {
 
     const totalPages = allPagesData.length;
     totalLabel.textContent = `/ ${totalPages}`;
-    input.max = totalPages;
-    input.value = 1;
+    currentPage = 1;
 }
 
-function goToPage(inputVal) {
-    let target = inputVal.toString().replace('Portada', '1').split('-')[0].trim();
-    let targetPage = parseInt(target);
+function getCurrentMode() {
+    const isMobile = window.innerWidth < 768;
+    const select = document.getElementById('view-mode-select');
+    return isMobile ? 'single' : (select ? select.value : 'double');
+}
+
+function goToPage(target) {
+    if (!allPagesData || allPagesData.length === 0) return;
+
+    let parsedTarget = target.toString().split('-')[0].trim();
+    let targetPage = parseInt(parsedTarget);
 
     if (isNaN(targetPage)) targetPage = 1;
 
@@ -48,53 +86,39 @@ function goToPage(inputVal) {
     if (targetPage > totalPages) targetPage = totalPages;
     if (targetPage < 1) targetPage = 1;
 
-    if (isMobile()) {
-        currentView = targetPage - 1;
-    } else {
-        if (targetPage === 1) {
-            currentView = 0;
-        } else {
-            currentView = Math.floor((targetPage - 2) / 2) + 1;
-        }
-    }
-    
-    document.getElementById('page-input').value = getPageLabelForView(currentView);
+    currentPage = targetPage;
     renderCurrentView();
 }
 
-function getPageLabelForView(view) {
-    if (isMobile()) {
-        return (view + 1).toString();
-    }
-    
-    if (view === 0) return "1";
-
-    const p1 = (view * 2);
-    const p2 = (view * 2) + 1;
-    
-    return p2 > allPagesData.length ? `${p1}` : `${p1}-${p2}`;
-}
-
 function renderCurrentView() {
-    const bookContainer = document.getElementById('binder-book');
-    if (!bookContainer) return;
-    bookContainer.innerHTML = ''; 
+    if (!allPagesData || allPagesData.length === 0) return;
 
-    if (isMobile()) {
-        const pageNum = currentView + 1;
-        const mobileSide = document.createElement('div');
-        mobileSide.className = 'page-side right-side';
+    const hasData = allPagesData && allPagesData.length > 0;
+    toggleNavigation(hasData);
+    if (!hasData) {
+        showEmptyMessage();
+        return; 
+    }
+
+    const bookContainer = document.getElementById('binder-book');
+    const pageInput = document.getElementById('page-input');
+    if (!bookContainer) return;
+    
+    bookContainer.innerHTML = ''; 
+    const mode = getCurrentMode();
+    const totalPages = allPagesData.length;
+
+    if (mode === 'single') {
+        const side = document.createElement('div');
+        side.className = 'page-side'; 
+        side.style.borderRadius = '8px';
+        buildPageHTML(side, currentPage);
+        bookContainer.appendChild(side);
         
-        const existePagina = allPagesData.some(p => p.number === pageNum);
-        if (existePagina) {
-            buildPageHTML(mobileSide, pageNum);
-        } else {
-            mobileSide.classList.add('cover-page');
-            mobileSide.innerHTML = '<div class="cover-title"></div>';
-        }
-        bookContainer.appendChild(mobileSide);
+        if (pageInput) pageInput.value = currentPage;
+
     } else {
-        if (currentView === 0) {
+        if (currentPage === 1) {
             const coverSide = document.createElement('div');
             coverSide.className = 'page-side left-side cover-page';
             coverSide.innerHTML = '<div class="cover-title"></div>';
@@ -104,9 +128,11 @@ function renderCurrentView() {
             rightSide.className = 'page-side right-side';
             buildPageHTML(rightSide, 1);
             bookContainer.appendChild(rightSide);
+            
+            if (pageInput) pageInput.value = '1';
         } else {
-            const leftPageNum = currentView * 2;
-            const rightPageNum = (currentView * 2) + 1;
+            let leftPageNum = currentPage % 2 === 0 ? currentPage : currentPage - 1;
+            let rightPageNum = leftPageNum + 1;
 
             const leftSide = document.createElement('div');
             leftSide.className = 'page-side left-side';
@@ -125,11 +151,10 @@ function renderCurrentView() {
                 rightSide.innerHTML = '<div class="cover-title"></div>';
             }
             bookContainer.appendChild(rightSide);
+            
+            if (pageInput) pageInput.value = rightPageNum > totalPages ? `${leftPageNum}` : `${leftPageNum}-${rightPageNum}`;
         }
     }
-
-    const select = document.getElementById('page-select');
-    if (select) select.value = currentView;
 }
 
 function buildPageHTML(sideContainer, pageNumber) {
@@ -197,9 +222,9 @@ function showDetails(card, pageNum) {
             <div class="info-grid">
                 <p><strong>Expansión:</strong> ${card.expansion || '--'} (${card.code || '--'})</p>\
                 <p><strong>Regulación:</strong> ${card.format || '--'}</p>\
-                <p><strong>Fecha obtención:</strong> ${card.date || '--'}</p>\
+                <p><strong>Fecha de obtención:</strong> ${card.date || '--'}</p>\
                 <p><strong>Estado:</strong> ${card.condition || '--'}</p>\
-                <p><strong>Precio (CM):</strong> <span class="price-tag">${card.price || '--'}</span></p>\
+                <p><strong>Precio (Cardmarket):</strong> <span class="price-tag">${card.price || '--'}</span></p>\
                 <p><strong>Tipo de carta:</strong> ${card.type || '--'}</p>\
                 <p><strong>Idioma:</strong> ${card.language || '--'}</p>\
             </div>
@@ -211,19 +236,21 @@ function showDetails(card, pageNum) {
 
 document.addEventListener("DOMContentLoaded", () => {
     const albumSelect = document.getElementById('album-select');
+    const viewModeSelect = document.getElementById('view-mode-select');
     
     function handleAlbumChange() {
         if (albumSelect) {
             jsonFile = albumSelect.value;
             gridType = albumSelect.options[albumSelect.selectedIndex].getAttribute('data-grid') || '2x2';
-            currentView = 0;
+            currentPage = 1;
             loadAllBinders();
         }
     }
 
-    if (albumSelect) {
-        albumSelect.addEventListener('change', handleAlbumChange);
-    }
+    if (albumSelect) albumSelect.addEventListener('change', handleAlbumChange);
+    if (viewModeSelect) viewModeSelect.addEventListener('change', renderCurrentView);
+
+    window.addEventListener('resize', renderCurrentView);
 
     handleAlbumChange();
 
@@ -246,30 +273,38 @@ document.addEventListener("DOMContentLoaded", () => {
     const nextBtn = document.getElementById('next-btn');
 
     prevBtn.addEventListener('click', () => {
-        let currentPage = parseInt(pageInput.value);
-        let step = isMobile() ? 1 : 2;
-        goToPage(currentPage - step); 
+        const mode = getCurrentMode();
+        if (mode === 'single') {
+            goToPage(currentPage - 1);
+        } else {
+            if (currentPage === 1) return;
+            let left = currentPage % 2 === 0 ? currentPage : currentPage - 1;
+            goToPage(left - 1);
+        }
     });
 
     nextBtn.addEventListener('click', () => {
-        let currentPage = parseInt(pageInput.value);
-        let step = isMobile() ? 1 : 2;
-        goToPage(currentPage + step);
+        const mode = getCurrentMode();
+        if (mode === 'single') {
+            goToPage(currentPage + 1);
+        } else {
+            if (currentPage === 1) {
+                goToPage(2);
+            } else {
+                let left = currentPage % 2 === 0 ? currentPage : currentPage - 1;
+                goToPage(left + 2);
+            }
+        }
     });
 
     pageInput.addEventListener('keydown', (e) => {
         if (e.key === 'Enter') {
             goToPage(e.target.value);
+            e.target.blur();
         }
     });
 
-    pageInput.addEventListener('blur', (e) => {
-        e.target.value = getPageLabelForView(currentView);
-    });
-
-    loadAllBinders();
-
-    window.addEventListener('resize', () => {
-        goToPage(parseInt(pageInput.value));
+    pageInput.addEventListener('blur', () => {
+        renderCurrentView(); 
     });
 });
