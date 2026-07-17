@@ -97,11 +97,6 @@ footer {
     border-radius: 15px;
 }
 
-.disclaimer {
-    padding-top: 7px;
-    font-size: 15px;
-}
-
 main a {
     color: crimson;
     text-decoration: none;
@@ -157,20 +152,16 @@ header { animation-delay: 0.1s; }
 main { animation-delay: 0.3s; }
 footer { animation-delay: 0.5s; }
 
-@media (max-width: 600px) {
-    header {
-        flex-direction: column;
-        text-align: center;
-        padding: 5px;
-    }
+html, body {
+    overflow-x: hidden;
+}
 
-    header > nav.nav-buttons {
-        margin-left: 0;
-        display: flex;
-        gap: 5px;
-    }
-
+@media (max-width: 768px) {
     body {
-        padding: 15px;
+        padding: 10px;
+    }
+    main > * {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
