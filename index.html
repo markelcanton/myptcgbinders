@@ -1,5 +1,6 @@
 <html lang="es">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>myptcgbinders</title>
     <link rel="icon" type="image/png" href="img/logo/icon.png">
@@ -29,13 +30,23 @@
                     </select>
                 </div>
 
-                <button id="prev-btn" class="nav-btn">◀ Anterior</button>
-                <div class="page-select-container">
-                    <span>Página:</span>
-                    <input type="text" id="page-input" value="1">
-                    <span id="total-pages-label">/ 1</span>
+                <div class="view-mode-container" id="view-mode-container">
+                    <span>Vista:</span>
+                    <select id="view-mode-select">
+                        <option value="double" selected>Dos páginas</option>
+                        <option value="single">Una página</option>
+                    </select>
                 </div>
-                <button id="next-btn" class="nav-btn">Siguiente ▶</button>
+
+                <div class="nav-buttons-container">
+                    <button id="prev-btn" class="nav-btn">◀ Anterior</button>
+                    <div class="page-select-container">
+                        <span>Pág:</span>
+                        <input type="text" id="page-input" value="1">
+                        <span id="total-pages-label">/ 1</span>
+                    </div>
+                    <button id="next-btn" class="nav-btn">Siguiente ▶</button>
+                </div>
             </div>
         </div>
     </main>
