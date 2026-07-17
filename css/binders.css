@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 #binders-container {
     display: flex;
     flex-direction: column;
@@ -17,6 +21,7 @@
     border: 1px solid #21262d;
     max-width: 100%;
     margin-bottom: 25px;
+    min-height: 512px;
 }
 
 .page-side {
@@ -37,11 +42,6 @@
 .right-side {
     border-radius: 0 8px 8px 0;
     border-left: 4px solid #090d13;
-}
-
-.hidden-side {
-    visibility: hidden;
-    pointer-events: none;
 }
 
 .cards-grid-2x2 {
@@ -69,7 +69,7 @@
 .card-item img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     cursor: pointer;
     display: block;
 }
@@ -97,12 +97,15 @@
     color: #8b949e;
     font-size: 11px;
     font-family: monospace;
+    left: 50%;
+    transform: translateX(-50%);
 }
-.left-side .page-number-indicator { left: 15px; }
-.right-side .page-number-indicator { right: 15px; }
+.left-side .page-number-indicator { left: 15px; transform: none; }
+.right-side .page-number-indicator { right: 15px; left: auto; transform: none; }
 
 .binder-controls {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 15px;
@@ -110,8 +113,35 @@
     padding: 12px 25px;
     border-radius: 30px;
     border: 1px solid #30363d;
-    width: fit-content;
+    max-width: 100%;
     box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.view-mode-container,
+.album-select-container {
+    color: #c9d1d9;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.view-mode-container select,
+.album-select-container select {
+    background: #0d1117;
+    color: white;
+    border: 1px solid #30363d;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nav-buttons-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-btn {
@@ -126,29 +156,26 @@
     transition: background 0.15s, transform 0.1s;
 }
 
-.nav-btn:hover {
-    background: #b0102e;
-}
-
-.nav-btn:active {
-    transform: scale(0.97);
-}
+.nav-btn:hover { background: #b0102e; }
+.nav-btn:active { transform: scale(0.97); }
 
 .page-select-container {
     color: #c9d1d9;
-    font-size: 14px;
+    font-size: 16px;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
 }
 
-.page-select-container select {
+.page-select-container input {
     background: #0d1117;
-    color: white;
+    color: #c9d1d9;
     border: 1px solid #30363d;
-    padding: 6px 12px;
+    padding: 8px 12px;
     border-radius: 6px;
-    cursor: pointer;
+    min-width: 50px;
+    max-width: 70px;
+    text-align: center;
     font-weight: bold;
 }
 
@@ -171,6 +198,8 @@
     width: 90%;
     max-width: 750px;
     position: relative;
+    max-height: 90vh;
+    overflow-y: auto;
 }
 
 .modal-grid {
@@ -197,16 +226,6 @@
     font-size: 14px;
 }
 .price-tag { color: #58a6ff; font-weight: bold; }
-
-.cards-grid-2x2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 15px;
-    margin-top: 15px;
-    height: calc(100% - 35px);
-    box-sizing: border-box;
-}
 
 .cards-grid-3x3 {
     display: grid;
@@ -258,108 +277,85 @@
     background: #0b0e14 !important;
 }
 
-.album-select-container {
-    color: #c9d1d9;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-right: 15px;
-}
-
-.album-select-container select {
-    background: #0d1117;
-    color: white;
-    border: 1px solid #30363d;
-    padding: 6px 12px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.page-select-container {
-    color: #c9d1d9;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.page-select-container input {
-    background: #0d1117;
-    color: #c9d1d9;
-    border: 1px solid #30363d;
-    padding: 8px 12px;
-    border-radius: 6px;
-    min-width: 60px;
-    max-width: 80px;
-    text-align: center;
-    font-weight: bold;
-}
-
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .binder-book {
-        flex-direction: column;
         padding: 10px;
-        align-items: center;
-        gap: 10px;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        width: 100%;
+        min-height: 420px;
     }
-
+    
     .page-side {
         width: 100%;
-        max-width: 310px /*340px*/;
-        aspect-ratio: 340 / 460;
-        border-radius: 8px !important; 
+        height: auto;
+        min-height: 400px;
+        border-radius: 8px !important;
         border: 1px solid #30363d !important;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
     }
 
-    .binder-book .page-side.hidden-side,
-    .binder-book .page-side.cover-page:first-child {
-        display: none !important;
+    #view-mode-container {
+        display: none;
     }
-
+    
     .binder-controls {
         flex-direction: column;
-        gap: 10px;
-        width: auto;
-    }
-
-    .album-select-container {
-        margin-right: 0;
-    }
-
-    .modal-overlay {
-        align-items: flex-start;
-        overflow-y: auto;
-    }
-
-    .modal-content {
-        width: 100% !important;
-        min-height: 100%;
-        border-radius: 0 !important;
-        border: none !important;
-        padding: 60px 20px 30px 20px;
-        box-sizing: border-box;
+        width: 100%;
+        padding: 15px;
+        border-radius: 12px;
+        gap: 12px;
     }
 
     .modal-grid {
-        grid-template-columns: 1fr !important;
-        gap: 20px;
+        grid-template-columns: 1fr;
+        gap: 15px;
     }
 
-    .modal-img img {
-        max-width: 260px;
-        margin: 0 auto;
-        display: block;
+    #binders-container {
+        padding: 10px 0; 
+    }
+    
+    .nav-buttons-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-template-areas: 
+            "pager pager"
+            "prev next";
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .nav-btn {
+        padding: 8px 12px; 
+        font-size: 12px;
+        flex-grow: 1; 
     }
 
-    .close-btn {
-        top: 15px;
-        right: 20px;
-        font-size: 35px;
-        z-index: 2001;
+    .page-select-container {
+        grid-area: pager;
+        justify-content: center;
+        margin-bottom: 4px;
+    }
+
+    #prev-btn {
+        grid-area: prev;
+        width: 100%;
+        padding: 10px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    #next-btn {
+        grid-area: next;
+        width: 100%;
+        padding: 10px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .modal-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
     }
 }
