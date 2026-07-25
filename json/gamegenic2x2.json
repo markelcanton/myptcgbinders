@@ -71,7 +71,7 @@
         {
           "slot": 2,
           "name": "Dhelmise",
-          "image": "null",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_91.png",
           "expansion": "Pitch Black",
           "code": "PBL091",
           "format": "J",
@@ -426,8 +426,8 @@
         },
         {
           "slot": 3,
-          "name": "Shadowy Dark Energy",
-          "image": "null",
+          "name": "Energía Oscura Sombría",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_83.png",
           "expansion": "Pitch Black",
           "code": "PBL083",
           "format": "J",
@@ -718,7 +718,7 @@
         {
           "slot": 2,
           "name": "Mega-Chandelure ex",
-          "image": "null",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_99.png",
           "expansion": "Pitch Black",
           "code": "PBL099",
           "format": "J",
@@ -746,7 +746,7 @@
         {
           "slot": 4,
           "name": "Morpeko ex",
-          "image": "null",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_55.png",
           "expansion": "Pitch Black",
           "code": "PBL055",
           "format": "J",
@@ -807,7 +807,7 @@
         {
           "slot": 4,
           "name": "Mega-Excadrill ex",
-          "image": "null",
+          "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_65.png",
           "expansion": "Pitch Black",
           "code": "PBL065",
           "format": "J",
