@@ -1,0 +1,37 @@
+{
+    "pages": [
+        {
+            "number": 1,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Riolu",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_90.png",
+                    "expansion": "Voltaje Vivido",
+                    "code": "VIV 90",
+                    "format": "",
+                    "date": "",
+                    "condition": "Mejor estado a ser posible",
+                    "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€" ,
+                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Riolu-VIV90?language=1,4&minCondition=3",
+                    "type": "",
+                    "language": "Español o Inglés preferiblemente"
+                },
+                {
+                    "slot": 2,
+                    "name": "Riolu",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM5/SM5_ES_66.png",
+                    "expansion": "Ultraprisma",
+                    "code": "UPR 66",
+                    "format": "",
+                    "date": "",
+                    "condition": "Mejor estado a ser posible",
+                    "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€" ,
+                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ultra-Prism/Riolu-UPR66?language=1,4&minCondition=3",
+                    "type": "",
+                    "language": "Español o Inglés preferiblemente"
+                }
+            ]
+        }
+    ]
+}
