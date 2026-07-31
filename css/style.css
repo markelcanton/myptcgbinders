@@ -160,6 +160,19 @@ html, body {
     body {
         padding: 10px;
     }
+
+    header {
+        flex-direction: column;
+        padding: 15px;
+        text-align: center;
+    }   
+
+    header > nav.nav-buttons {
+        margin-left: 0;
+        display: flex;
+        gap: 5px;
+    }
+
     main > * {
         padding-left: 10px;
         padding-right: 10px;
