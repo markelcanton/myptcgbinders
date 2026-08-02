@@ -189,6 +189,76 @@
                     "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Stellar-Crown/Zeraora-V1-SCR055?language=1,4&minCondition=3",
                     "type": "",
                     "language": "Español o Inglés preferiblemente"
+                },
+                {
+                    "slot": 5,
+                    "name": "Zeraora",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_61.png",
+                    "expansion": "Voltaje Vivido",
+                    "code": "VIV 61",
+                    "format": "",
+                    "date": "",
+                    "condition": "Mejor estado a ser posible",
+                    "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,10€-0,20€" ,
+                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Zeraora-VIV61?language=1,4&minCondition=3",
+                    "type": "",
+                    "language": "Español o Inglés preferiblemente"
+                },
+                {
+                    "slot": 6,
+                    "name": "Zeraora",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM9/SM9_ES_52.png",
+                    "expansion": "Unión de Aliados",
+                    "code": "TEU 52",
+                    "format": "",
+                    "date": "",
+                    "condition": "Mejor estado a ser posible",
+                    "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,90€-2€" ,
+                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Team-Up/Zeraora-TEU52?language=1,4&minCondition=3",
+                    "type": "",
+                    "language": "Español o Inglés preferiblemente"
+                },
+                {
+                    "slot": 7,
+                    "name": "Zeraora",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_56.png",
+                    "expansion": "Tempestad Plateada",
+                    "code": "SIT 56",
+                    "format": "",
+                    "date": "",
+                    "condition": "Mejor estado a ser posible",
+                    "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€" ,
+                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Zeraora-SIT056?language=1,4&minCondition=3",
+                    "type": "",
+                    "language": "Español o Inglés preferiblemente"
+                },
+                {
+                    "slot": 8,
+                    "name": "Zeraora",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH8/SWSH8_ES_102.png",
+                    "expansion": "Golpe Fusión",
+                    "code": "FST 102",
+                    "format": "",
+                    "date": "",
+                    "condition": "Mejor estado a ser posible",
+                    "price": "El precio en Inglés (vía Cardmarket) oscila los 0,02€" ,
+                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fusion-Strike/Zeraora?language=1,4&minCondition=3",
+                    "type": "",
+                    "language": "Español o Inglés preferiblemente"
+                },
+                {
+                    "slot": 9,
+                    "name": "Zeraora",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12PT5/SWSH12PT5_ES_52.png",
+                    "expansion": "Cenit Supremo",
+                    "code": "CRZ052",
+                    "format": "",
+                    "date": "",
+                    "condition": "Mejor estado a ser posible",
+                    "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€" ,
+                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Crown-Zenith/Zeraora-CRZ052?language=1,4&minCondition=3",
+                    "type": "",
+                    "language": "Español o Inglés preferiblemente"
                 }
             ]
         }
