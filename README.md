@@ -4,4 +4,4 @@ _myptcgbinders_ es una página web para compartir contenido de álbumes de carta
 
 _myptcgbinders_ no está asociado ni tiene ninguna afiliación con Pokémon, Nintendo, Cardmarket u otras. Este proyecto ha sido desarrollado por Markel Cantón con fines informativos y de interacción. Su creador jamás hará ningún uso comercial del mismo.
 
-Todas las fotos de Pokémon utilizadas en el proyecto pertenecen a: **©Pokémon/Nintendo/Creatures/GAME FREAK**.
+Todas las fotos de Pokémon utilizadas en el proyecto (excepto el icono web de la barra de navegación) pertenecen a: **©Pokémon/Nintendo/Creatures/GAME FREAK**.
