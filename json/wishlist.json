@@ -175,9 +175,14 @@
                     "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Plasma-Storm/Riolu-PLS76?language=1,4&minCondition=3",
                     "type": "",
                     "language": "Español o Inglés preferiblemente"
-                },
+                }
+            ]
+        },
+        {
+            "number": 3,
+            "cards": [
                 {
-                    "slot": 4,
+                    "slot": 1,
                     "name": "Zeraora",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV07/SV07_ES_55.png",
                     "expansion": "Corona Astral",
@@ -191,7 +196,7 @@
                     "language": "Español o Inglés preferiblemente"
                 },
                 {
-                    "slot": 5,
+                    "slot": 2,
                     "name": "Zeraora",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_61.png",
                     "expansion": "Voltaje Vivido",
@@ -205,7 +210,7 @@
                     "language": "Español o Inglés preferiblemente"
                 },
                 {
-                    "slot": 6,
+                    "slot": 3,
                     "name": "Zeraora",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM9/SM9_ES_52.png",
                     "expansion": "Unión de Aliados",
@@ -219,7 +224,7 @@
                     "language": "Español o Inglés preferiblemente"
                 },
                 {
-                    "slot": 7,
+                    "slot": 4,
                     "name": "Zeraora",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_56.png",
                     "expansion": "Tempestad Plateada",
@@ -233,7 +238,7 @@
                     "language": "Español o Inglés preferiblemente"
                 },
                 {
-                    "slot": 8,
+                    "slot": 5,
                     "name": "Zeraora",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH8/SWSH8_ES_102.png",
                     "expansion": "Golpe Fusión",
@@ -247,7 +252,7 @@
                     "language": "Español o Inglés preferiblemente"
                 },
                 {
-                    "slot": 9,
+                    "slot": 6,
                     "name": "Zeraora",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12PT5/SWSH12PT5_ES_52.png",
                     "expansion": "Cenit Supremo",
@@ -263,7 +268,7 @@
             ]
         },
         {
-            "number": 3,
+            "number": 4,
             "cards": [
                 {
                     "slot": 1,
@@ -394,7 +399,7 @@
             ]
         },
         {
-            "number": 4,
+            "number": 5,
             "cards": [
                 {
                     "slot": 1,
@@ -483,7 +488,7 @@
             ]
         },
         {
-            "number": 5,
+            "number": 6,
             "jumbo": true,
             "cards": [
                 {
@@ -503,7 +508,7 @@
             ]
         },
         {
-            "number": 6,
+            "number": 7,
             "cards": [
                 {
                     "slot": 1,
