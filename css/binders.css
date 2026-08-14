@@ -359,3 +359,117 @@
         gap: 15px;
     }
 }
+
+.no-trade-badge {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    background-color: rgba(220, 20, 60, 0.95);
+    color: white;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding: 4px 6px;
+    border-radius: 4px;
+    z-index: 10;
+    pointer-events: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    letter-spacing: 0.5px;
+}
+
+.btn-disponibles {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #2ea043;
+    color: white;
+    border: 1px solid rgba(240, 246, 252, 0.1);
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.2s;
+}
+
+.btn-disponibles:hover {
+    background-color: #2c974b;
+}
+
+.btn-disponibles.btn-active {
+    background-color: #21262d;
+    border-color: #30363d;
+}
+
+.available-list {
+    margin-top: 15px;
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.available-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    color: #c9d1d9;
+    text-align: left;
+}
+
+.available-table th {
+    background-color: #161b22;
+    color: #8b949e;
+    padding: 8px;
+    border-bottom: 1px solid #30363d;
+    font-weight: 600;
+}
+
+.available-table td {
+    padding: 8px;
+    border-bottom: 1px solid #21262d;
+    vertical-align: middle;
+}
+
+.available-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.available-table tbody tr:hover {
+    background-color: rgba(110, 118, 129, 0.1);
+}
+
+.cm-table-btn {
+    display: inline-block;
+    padding: 3px 8px;
+    background-color: #007bff;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.cm-table-btn:hover {
+    background-color: #0056b3;
+}
+
+.reserved-badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: rgba(243, 156, 18, 0.95);
+    color: white;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding: 4px 6px;
+    border-radius: 4px;
+    z-index: 10;
+    pointer-events: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    letter-spacing: 0.5px;
+}
