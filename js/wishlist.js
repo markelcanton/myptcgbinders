@@ -3,8 +3,6 @@ function showDetails(card, pageNum) {
     const modalBody = document.getElementById('modal-body');
 
     let infoHtml = `<p><strong>Expansión:</strong> ${card.expansion || '--'} (${card.code || '--'})</p>`;
-    if (card.format && card.format.trim() !== "") infoHtml += `<p><strong>Regulación:</strong> ${card.format}</p>`;
-    if (card.date && card.date.trim() !== "") infoHtml += `<p><strong>Fecha de obtención:</strong> ${card.date}</p>`;
 
     const hasLink = card['cardmarket-link'] && card['cardmarket-link'].trim() !== '';
     const cmButtonHtml = hasLink 
@@ -23,7 +21,7 @@ function showDetails(card, pageNum) {
             </div>
             
             <div class="specs-details">
-                <h3>Especificaciones buscadas:</h3>
+                <h3>Especificaciones:</h3>
                 <ul>
                     <li><strong>Estado:</strong> ${card.condition || '--'}</li>
                     <li><strong>Idiomas:</strong> ${card.language || '--'}</li>
