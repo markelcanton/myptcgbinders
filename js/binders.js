@@ -162,7 +162,6 @@ function buildPageHTML(sideContainer, pageNumber) {
 
     const gridDiv = document.createElement('div');
     const jsonDataPage = allPagesData.find(p => p.number === pageNumber);
-    
     const esPaginaJumbo = jsonDataPage && jsonDataPage.jumbo === true;
 
     if (esPaginaJumbo) {
@@ -188,8 +187,21 @@ function buildPageHTML(sideContainer, pageNumber) {
         const cardData = cardsMap[slot.toString()];
         if (cardData) {
             const imgSrc = cardData.image ? cardData.image.trim() : '';
+            
+            const tieneNoTrade = cardData.noTrade === true || 
+                (cardData.price && cardData.price.toUpperCase().includes("NO TRADE")) ||
+                (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("NO TRADE")));
+
+            const tieneReservada = cardData.reservada === true || 
+                (cardData.price && cardData.price.toUpperCase().includes("RESERVADA")) ||
+                (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("RESERVADA")));
+
+            let badgesHTML = '';
+            if (tieneNoTrade) badgesHTML += `<div class="no-trade-badge">NO TRADE</div>`;
+            if (tieneReservada) badgesHTML += `<div class="reserved-badge">RESERVADA</div>`;
+
             if (imgSrc) {
-                cardItem.innerHTML = `<img src="${imgSrc}" alt="Pokémon Card" onerror="this.onerror=null; this.src='https://tcg.pokemon.com/assets/img/global/tcg-card-back.jpg';">`;
+                cardItem.innerHTML = `${badgesHTML}<img src="${imgSrc}" alt="Pokémon Card" onerror="this.onerror=null; this.src='https://tcg.pokemon.com/assets/img/global/tcg-card-back.jpg';">`;
             } else {
                 cardItem.innerHTML = `<div class="empty-slot"></div>`;
             }
@@ -208,10 +220,60 @@ function showDetails(card, pageNum) {
     const modal = document.getElementById('card-modal');
     const modalBody = document.getElementById('modal-body');
 
-    const tieneEnlace = card["cardmarket-link"] && card["cardmarket-link"].trim() !== "";
-    const botonCardmarket = tieneEnlace 
-        ? `<a href="${card["cardmarket-link"].trim()}" target="_blank" class="cm-link-btn" style="display: inline-block; margin-top: 15px; padding: 10px 15px; background-color: #007bff; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; text-align: center;">Ver en Cardmarket</a>`
-        : '';
+    let infoHtml = `<p><strong>Expansión:</strong> ${card.expansion || '--'} (${card.code || '--'})</p>`;
+    if (card.format && card.format.trim() !== "") infoHtml += `<p><strong>Regulación:</strong> ${card.format}</p>`;
+    if (card.date && card.date.trim() !== "") infoHtml += `<p><strong>Fecha de obtención:</strong> ${card.date}</p>`;
+
+    const variantsList = (card.variants && card.variants.length > 0) 
+        ? card.variants 
+        : [{
+            language: card.language || '--',
+            type: card.type || '--',
+            condition: card.condition || '--',
+            price: card.price || '--',
+            'cardmarket-link': card['cardmarket-link'] || ''
+        }];
+
+    const rowsHtml = variantsList.map(v => {
+        const tieneLink = v['cardmarket-link'] && v['cardmarket-link'].trim() !== '';
+        const linkBtn = tieneLink 
+            ? `<a href="${v['cardmarket-link'].trim()}" target="_blank" class="cm-table-btn" alt="Ver precio en Cardmarket" title="Ver precio en Cardmarket">Ver</a>` 
+            : '--';
+
+        return `
+            <tr>
+                <td>${v.language || '--'}</td>
+                <td>${v.type || '--'}</td>
+                <td>${v.condition || '--'}</td>
+                <td><span class="price-tag">${v.price || '--'}</span></td>
+                <td>${v.stock || '--'}</td>
+                <td>${linkBtn}</td>
+            </tr>
+        `;
+    }).join('');
+
+    const tableHtml = `
+        <div id="available-list" class="available-list" style="display: none;">
+            <div class="table-responsive">
+                <table class="available-table">
+                    <thead>
+                        <tr>
+                            <th>Idioma:</th>
+                            <th>Tipo:</th>
+                            <th>Estado:</th>
+                            <th>Precio (CM):</th>
+                            <th>Stock:</th>
+                            <th>Link a CM:</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${rowsHtml}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <button id="btn-disponibles" class="btn-disponibles">Ver disponibles (${variantsList.length})</button>
+    `;
 
     modalBody.innerHTML = `
         <div class="modal-img">
@@ -220,18 +282,30 @@ function showDetails(card, pageNum) {
         <div class="modal-info">
             <h2 style="margin-top:0; color:white;">${card.name || 'Sin nombre'}</h2>
             <div class="info-grid">
-                <p><strong>Expansión:</strong> ${card.expansion || '--'} (${card.code || '--'})</p>\
-                <p><strong>Regulación:</strong> ${card.format || '--'}</p>\
-                <p><strong>Fecha de obtención:</strong> ${card.date || '--'}</p>\
-                <p><strong>Estado:</strong> ${card.condition || '--'}</p>\
-                <p><strong>Precio (Cardmarket):</strong> <span class="price-tag">${card.price || '--'}</span></p>\
-                <p><strong>Tipo de carta:</strong> ${card.type || '--'}</p>\
-                <p><strong>Idioma:</strong> ${card.language || '--'}</p>\
+                ${infoHtml}
             </div>
-            ${botonCardmarket}
+            ${tableHtml}
         </div>
     `;
+    
     modal.style.display = 'flex';
+
+    const btnDisponibles = document.getElementById('btn-disponibles');
+    const availableList = document.getElementById('available-list');
+    
+    if (btnDisponibles && availableList) {
+        btnDisponibles.addEventListener('click', () => {
+            if (availableList.style.display === 'none') {
+                availableList.style.display = 'block';
+                btnDisponibles.textContent = 'Ocultar disponibles';
+                btnDisponibles.classList.add('btn-active');
+            } else {
+                availableList.style.display = 'none';
+                btnDisponibles.textContent = `Ver disponibles (${variantsList.length})`;
+                btnDisponibles.classList.remove('btn-active');
+            }
+        });
+    }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
