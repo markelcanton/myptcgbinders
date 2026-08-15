@@ -199,7 +199,9 @@
     max-width: 750px;
     position: relative;
     max-height: 90vh;
-    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 .modal-grid {
@@ -207,6 +209,9 @@
     grid-template-columns: 1fr 1.3fr;
     gap: 25px;
     align-items: center;
+    overflow-y: auto;
+    min-height: 0;
+    padding-right: 5px;
 }
 
 .close-btn {
@@ -354,10 +359,17 @@
         text-align: center;
     }
 
-    .modal-grid {
-        grid-template-columns: 1fr;
-        gap: 15px;
+    .modal-img img {
+        max-height: 45vh;
+        width: auto !important;
+        margin: 0 auto;
+        display: block;
     }
+}
+
+.modal-info {
+    min-width: 0;
+    width: 100%;
 }
 
 .no-trade-badge {
@@ -409,6 +421,8 @@
 
 .table-responsive {
     overflow-x: auto;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
 }
 
 .available-table {
