@@ -10,12 +10,18 @@
                     "expansion": "Megaevolution",
                     "code": "MEG001",
                     "format": "I",
-                    "date": "2026-02-07",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Bulbasaur-V1-MEG001?language=4&minCondition=2&isReverseHolo=Y",
-                    "type": "Common + Foil",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common + Foil",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Bulbasaur-V1-MEG001?language=4&minCondition=2&isReverseHolo=Y"
+                        }
+                    ]
                 },
                 {
                     "slot": 2,
@@ -24,12 +30,18 @@
                     "expansion": "Ascended Heroes",
                     "code": "ASC020",
                     "format": "J",
-                    "date": "2026-03-07",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes/Charmander-ASC020?language=1&minCondition=2",
-                    "type": "Common + Foil",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common + Foil",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes/Charmander-ASC020?language=1&minCondition=2"
+                        }
+                    ]
                 }
             ]
         },
@@ -43,12 +55,18 @@
                     "expansion": "Megaevolution",
                     "code": "MEG008",
                     "format": "I",
-                    "date": "2025-10-04",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Chikorita-MEG008?language=4&minCondition=2&isReverseHolo=Y",
-                    "type": "Common + Foil",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common + Foil",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Chikorita-MEG008?language=4&minCondition=2&isReverseHolo=Y"
+                        }
+                    ]
                 },
                 {
                     "slot": 2,
@@ -57,12 +75,18 @@
                     "expansion": "Destined Rivals",
                     "code": "DRI032",
                     "format": "I",
-                    "date": "2025-10-04",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Ethans-Cyndaquil-DRI031?language=4&minCondition=2",
-                    "type": "Common",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Ethans-Cyndaquil-DRI031?language=4&minCondition=2"
+                        }
+                    ]
                 },
                 {
                     "slot": 3,
@@ -71,12 +95,18 @@
                     "expansion": "Ascended Heroes",
                     "code": "ASC041",
                     "format": "J",
-                    "date": "2026-05-09",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes/Totodile-ASC041?language=4&minCondition=2",
-                    "type": "Common",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes/Totodile-ASC041?language=4&minCondition=2"
+                        }
+                    ]
                 }
             ]
         },
@@ -90,12 +120,18 @@
                     "expansion": "Duelos Primigenios",
                     "code": "PRC 6",
                     "format": "XY (no válida en torneos)",
-                    "date": "2026-06-13",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Primal-Clash/Treecko-PRC6?language=4&minCondition=2",
-                    "type": "Common",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Primal-Clash/Treecko-PRC6?language=4&minCondition=2"
+                        }
+                    ]
                 },
                 {
                     "slot": 2,
@@ -104,12 +140,18 @@
                     "expansion": "Duelos Primigenios",
                     "code": "PRC 25",
                     "format": "XY (no válida en torneos)",
-                    "date": "2026-05-30",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Primal-Clash/Torchic-PRC25?language=4&minCondition=2",
-                    "type": "Common",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Primal-Clash/Torchic-PRC25?language=4&minCondition=2"
+                        }
+                    ]
                 }
             ]
         },
@@ -123,12 +165,18 @@
                     "expansion": "Phantasmal Flames",
                     "code": "PFL027",
                     "format": "I",
-                    "date": "2026-05-02",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Piplup-V1-PFL027?language=4&minCondition=2",
-                    "type": "Common",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Piplup-V1-PFL027?language=4&minCondition=2"
+                        }
+                    ]
                 }
             ]
         },
@@ -142,12 +190,18 @@
                     "expansion": "Fulgor Negro",
                     "code": "BLK001",
                     "format": "I",
-                    "date": "2026-03-19",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Black-Bolt/Snivy-V1-BLK001?language=4&minCondition=2",
-                    "type": "Common",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Black-Bolt/Snivy-V1-BLK001?language=4&minCondition=2"
+                        }
+                    ]
                 },
                 {
                     "slot": 2,
@@ -155,13 +209,19 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/BW7/BW7_ES_24.png",
                     "expansion": "Fronteras Cruzadas",
                     "code": "BCR 24",
-                    "format": "Black and White (no válida en torneos)",
-                    "date": "2026-06-20",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Boundaries-Crossed/Tepig-BCR24?language=4&minCondition=2",
-                    "type": "Common",
-                    "language": "Español"
+                    "format": "BW (no válida en torneos)",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Boundaries-Crossed/Tepig-BCR24?language=4&minCondition=2"
+                        }
+                    ]
                 },
                 {
                     "slot": 3,
@@ -170,12 +230,18 @@
                     "expansion": "Brave Stars - Charm",
                     "code": "cs5aC 015",
                     "format": "F (no válida en torneos)",
-                    "date": "2026-06-07",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Brave-Stars-Charm/Oshawott-CS5aC015?language=6&minCondition=2&isReverseHolo=N",
-                    "type": "Common",
-                    "language": "Chino"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Chino",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Brave-Stars-Charm/Oshawott-CS5aC015?language=6&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
                 }
             ]
         },
@@ -189,12 +255,18 @@
                     "expansion": "Chaos Rising",
                     "code": "CRI005",
                     "format": "J",
-                    "date": "2026-06-20",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Chespin-V1-CRI005?language=4&minCondition=2&isReverseHolo=Y",
-                    "type": "Common + Foil",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common + Foil",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Chespin-V1-CRI005?language=4&minCondition=2&isReverseHolo=Y"
+                        }
+                    ]
                 },
                 {
                     "slot": 2,
@@ -203,12 +275,18 @@
                     "expansion": "XY",
                     "code": "XY 24",
                     "format": "XY (no válida en torneos)",
-                    "date": "2026-05-30",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Fennekin-XY24?language=4&minCondition=2",
-                    "type": "Common",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Fennekin-XY24?language=4&minCondition=2"
+                        }
+                    ]
                 },
                 {
                     "slot": 3,
@@ -217,12 +295,18 @@
                     "expansion": "Chaos Rising",
                     "code": "CRI020",
                     "format": "J",
-                    "date": "2026-06-13",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Froakie-V1-CRI020?language=1&minCondition=2&isReverseHolo=N",
-                    "type": "Common",
-                    "language": "Inglés"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Froakie-V1-CRI020?language=1&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
                 }
             ]
         },
@@ -235,13 +319,19 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM1/SM1_ES_9.png",
                     "expansion": "Sol y Luna",
                     "code": "SUM 9",
-                    "format": "Sol y Luna (no válidas en torneos)",
-                    "date": "2026/04/09",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Sun-Moon/Rowlet-V1-SUM9?language=4&minCondition=2&isReverseHolo=N",
-                    "type": "Common",
-                    "language": "Español"
+                    "format": "Sol y Luna (no válida en torneos)",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Sun-Moon/Rowlet-V1-SUM9?language=4&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
                 },
                 {
                     "slot": 2,
@@ -250,12 +340,18 @@
                     "expansion": "Temporal Forces",
                     "code": "TEF032",
                     "format": "H",
-                    "date": "2025-06-14",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Temporal-Forces/Litten-V1-TEF032?language=4&minCondition=2&isReverseHolo=N",
-                    "type": "Common",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Temporal-Forces/Litten-V1-TEF032?language=4&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
                 }
             ]
         },
@@ -269,12 +365,18 @@
                     "expansion": "Megaevolution",
                     "code": "MEG026",
                     "format": "I",
-                    "date": "2025-10-11",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Scorbunny-MEG026?language=1&minCondition=2&isReverseHolo=N",
-                    "type": "Common",
-                    "language": "Inglés"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Scorbunny-MEG026?language=1&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
                 },
                 {
                     "slot": 3,
@@ -283,12 +385,18 @@
                     "expansion": "Megaevolution",
                     "code": "MEG039",
                     "format": "I",
-                    "date": "2025-11-15",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Sobble-MEG039?language=4&minCondition=2&isReverseHolo=N",
-                    "type": "Common",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Sobble-MEG039?language=4&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
                 }
             ]
         },
@@ -299,15 +407,21 @@
                     "slot": 1,
                     "name": "Sprigatito",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_16.png",
-                    "expansion": "Journey Together",
+                    "expansion": "Juntos de Aventuras",
                     "code": "JTG016",
                     "format": "I",
-                    "date": "2025-09-27",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Journey-Together/Sprigatito-JTG016?language=1&minCondition=2&isReverseHolo=N",
-                    "type": "Common",
-                    "language": "Inglés"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Journey-Together/Sprigatito-JTG016?language=1&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
                 },
                 {
                     "slot": 2,
@@ -316,12 +430,18 @@
                     "expansion": "Escarlata y Púrpura",
                     "code": "SVI036",
                     "format": "G (no válida en torneos)",
-                    "date": "2026-06-07",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Scarlet-Violet/Fuecoco-V2-SVI036?language=4&minCondition=2",
-                    "type": "Common + Foil",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common + Foil",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Scarlet-Violet/Fuecoco-V2-SVI036?language=4&minCondition=2"
+                        }
+                    ]
                 },
                 {
                     "slot": 3,
@@ -330,12 +450,18 @@
                     "expansion": "SV Black Star Promos",
                     "code": "SVP003",
                     "format": "G (no válida en torneos)",
-                    "date": "2026-06-07",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SV-Black-Star-Promos/Quaxly-SVPen003?language=4&minCondition=2",
-                    "type": "Promo + Foil",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Promo + Foil",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SV-Black-Star-Promos/Quaxly-SVPen003?language=4&minCondition=2"
+                        }
+                    ]
                 }
             ]
         },
@@ -349,17 +475,23 @@
             "cards": [
                 {
                     "slot": 1,
-                    "name": "Koraidon ex (Jumbo)",
+                    "name": "Koraidon ex",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV01/SV01_ES_125.png",
                     "expansion": "Escarlata y Púrpura",
                     "code": "Jumbo",
-                    "format": "G (no válida en torneos)",
-                    "date": "2026-06-07",
-                    "condition": "Near Mint (la foto adjuntada no es correcta)",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Scarlet-Violet/Koraidon-ex-V2-SVI125?language=4&minCondition=2",
-                    "type": "Double Rare + Jumbo",
-                    "language": "Español"
+                    "format": "Jumbo (no válida en torneos) &#8226; La foto adjuntada no es correcta.",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Jumbo",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Scarlet-Violet/Koraidon-ex-V2-SVI125?language=4&minCondition=2"
+                        }
+                    ]
                 }
             ]
         },
@@ -388,12 +520,18 @@
                     "expansion": "Tempestad Plateada",
                     "code": "SIT030",
                     "format": "F (no válida en torneos)",
-                    "date": "2026-03-19",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Litten-SIT030?language=4&minCondition=2&isReverseHolo=N",
-                    "type": "Common",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Litten-SIT030?language=4&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
                 },
                 {
                     "slot": 2,
@@ -402,12 +540,18 @@
                     "expansion": "Tempestad Plateada",
                     "code": "SIT031",
                     "format": "F (no válida en torneos)",
-                    "date": "2026-06-07",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Torracat-SIT031?language=4&minCondition=2&isReverseHolo=N",
-                    "type": "Common",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Torracat-SIT031?language=4&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
                 },
                 {
                     "slot": 3,
@@ -416,12 +560,18 @@
                     "expansion": "Tempestad Plateada",
                     "code": "SIT032",
                     "format": "F (no válida en torneos)",
-                    "date": "2026-06-07",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Incineroar-SIT032?language=4&minCondition=2&isReverseHolo=N",
-                    "type": "Common",   
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Incineroar-SIT032?language=4&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
                 },
                 {
                     "slot": 4,
@@ -429,13 +579,19 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM10/SM10_ES_60.png",
                     "expansion": "Unbroken Bounds",
                     "code": "UNB 60",
-                    "format": "Sol y Luna (no válidas en torneos)",
-                    "date": "2026-05-30",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unbroken-Bonds/Zeraora-UNB60?language=4&minCondition=2&isReverseHolo=N",
-                    "type": "Common",
-                    "language": "Español"
+                    "format": "Sol y Luna (no válida en torneos)",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unbroken-Bonds/Zeraora-UNB60?language=4&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
                 }
             ]
         },
@@ -449,12 +605,18 @@
                     "expansion": "Cielos Evolutivos",
                     "code": "EVS125",
                     "format": "E (no válida en torneos)",
-                    "date": "2026-06-07",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Evolving-Skies/Eevee-EVS125?language=4&minCondition=2&isReverseHolo=N",
-                    "type": "Common",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Evolving-Skies/Eevee-EVS125?language=4&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
                 },
                 {
                     "slot": 2,
@@ -463,12 +625,18 @@
                     "expansion": "Phantasmal Flames",
                     "code": "PFL069",
                     "format": "I",
-                    "date": "2026-03-19",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Eternatus-PFL069?language=4&minCondition=2&isReverseHolo=N",
-                    "type": "Uncommon",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Eternatus-PFL069?language=4&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
                 },
                 {
                     "slot": 3,
@@ -477,12 +645,18 @@
                     "expansion": "Destined Rivals",
                     "code": "DRI078",
                     "format": "I",
-                    "date": "2025-10-04",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Zeraora-DRI078?language=4&minCondition=2&isReverseHolo=N",
-                    "type": "Rare",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Rare",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Zeraora-DRI078?language=4&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
                 },
                 {
                     "slot": 4,
@@ -490,13 +664,19 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV08/SV08_ES_161.png",
                     "expansion": "Sobre de premio de Play (serie 7)",
                     "code": "SSP161",
-                    "format": "F (no válida en torneos)",
-                    "date": "2025-09-13",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Terapagos-PPS7SSP-161?language=4&minCondition=2",
-                    "type": "Rare",
-                    "language": "Español"
+                    "format": "H",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Rare",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Terapagos-PPS7SSP-161?language=4&minCondition=2"
+                        }
+                    ]
                 }
             ]
         },
@@ -510,12 +690,18 @@
                     "expansion": "Megaevolution",
                     "code": "MEG048",
                     "format": "I",
-                    "date": "2025-10-04",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Raikou-MEG048?language=4&minCondition=2&isReverseHolo=N",
-                    "type": "Rare",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Rare",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Raikou-MEG048?language=4&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
                 },
                 {
                     "slot": 2,
@@ -524,12 +710,18 @@
                     "expansion": "Ascended Heroes",
                     "code": "ASC025",
                     "format": "I",
-                    "date": "2026-05-09",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes/Entei-ASC025?language=1&minCondition=2",
-                    "type": "Common + Foil",
-                    "language": "Inglés"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Common + Foil",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes/Entei-ASC025?language=1&minCondition=2"
+                        }
+                    ]
                 },
                 {
                     "slot": 3,
@@ -538,12 +730,18 @@
                     "expansion": "Phantasmal Flames",
                     "code": "PFL026",
                     "format": "I",
-                    "date": "2026-03-19",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Suicune-PFL026?language=4&minCondition=2&isReverseHolo=N",
-                    "type": "Rare",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Rare",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Suicune-PFL026?language=4&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
                 },
                 {
                     "slot": 4,
@@ -552,12 +750,18 @@
                     "expansion": "Ascended Heroes",
                     "code": "ASC092",
                     "format": "I",
-                    "date": "2026-05-09",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes/Rotom-ASC092?language=1&minCondition=2",
-                    "type": "Common + Foil",
-                    "language": "Inglés"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Common + Foil",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes/Rotom-ASC092?language=1&minCondition=2"
+                        }
+                    ]
                 }
             ]
         },
@@ -571,12 +775,18 @@
                     "expansion": "Megaevolution",
                     "code": "MEG095",
                     "format": "I",
-                    "date": "2026-02-07",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Dialga-MEG095?language=4&minCondition=2",
-                    "type": "Rare",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Rare",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Dialga-MEG095?language=4&minCondition=2"
+                        }
+                    ]
                 },
                 {
                     "slot": 2,
@@ -585,13 +795,18 @@
                     "expansion": "Phantasmal Flames",
                     "code": "PFL045",
                     "format": "I",
-                    "date": "2025-12-20",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Zacian-V1-PFL045?language=4&minCondition=2",
-                    "type": "Rare",
-                    "language": "Español"
-
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Rare",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Zacian-V1-PFL045?language=4&minCondition=2"
+                        }
+                    ]
                 },
                 {
                     "slot": 3,
@@ -599,13 +814,19 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH6/SWSH6_ES_120.png",
                     "expansion": "Reinado Escalofriante",
                     "code": "CRE120",
-                    "format": "E (no válidas en torneos)",
-                    "date": "2026-05-30",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Zangoose-CRE120?language=1&minCondition=2&isReverseHolo=Y",
-                    "type": "Rare + Foil",
-                    "language": "Inglés"
+                    "format": "E (no válida en torneos)",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Rare + Foil",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Zangoose-CRE120?language=1&minCondition=2&isReverseHolo=Y"
+                        }
+                    ]
                 },
                 {
                     "slot": 4,
@@ -613,13 +834,19 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH6/SWSH6_ES_88.png",
                     "expansion": "Reinado Escalofriante",
                     "code": "CRE088",
-                    "format": "E (no válidas en torneos)",
-                    "date": "2026-06-13",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Passimian?language=1&minCondition=2&isReverseHolo=Y",
-                    "type": "Rare + Foil",
-                    "language": "Inglés"
+                    "format": "E (no válida en torneos)",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Rare + Foil",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Passimian?language=1&minCondition=2&isReverseHolo=Y"
+                        }
+                    ]
                 }
             ]
         },
@@ -633,12 +860,18 @@
                     "expansion": "Mascarada Crepuscular",
                     "code": "TWM067",
                     "format": "H",
-                    "date": "2026-03-19",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Twilight-Masquerade/Luxio-TWM067?language=1&minCondition=2&isReverseHolo=Y",
-                    "type": "Common",
-                    "language": "Inglés"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Twilight-Masquerade/Luxio-TWM067?language=1&minCondition=2&isReverseHolo=Y"
+                        }
+                    ]
                 },
                 {
                     "slot": 2,
@@ -646,13 +879,19 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_98.png",
                     "expansion": "Tempestad Plateada",
                     "code": "SIT098",
-                    "format": "F (no válidas en torneos)",
-                    "date": "2026-05-30",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Hawlucha-SIT098?language=4&minCondition=2&isReverseHolo=N",
-                    "type": "Common",
-                    "language": "Español"
+                    "format": "F (no válida en torneos)",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Hawlucha-SIT098?language=4&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
                 },
                 {
                     "slot": 3,
@@ -661,12 +900,18 @@
                     "expansion": "Destined Rivals",
                     "code": "DRI149",
                     "format": "I",
-                    "date": "2025-09-27",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE",
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Team-Rockets-Meowth-V1-DRI149?language=4&minCondition=2&isReverseHolo=Y",
-                    "type": "Common + Foil",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common + Foil",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Team-Rockets-Meowth-V1-DRI149?language=4&minCondition=2&isReverseHolo=Y"
+                        }
+                    ]
                 },
                 {
                     "slot": 4,
@@ -675,12 +920,18 @@
                     "expansion": "Destined Rivals",
                     "code": "DRI082",
                     "format": "I",
-                    "date": "",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE" ,
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Team-Rockets-Wobbuffet-DRI082?language=4&minCondition=2&isReverseHolo=N",
-                    "type": "Rare",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Rare",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Team-Rockets-Wobbuffet-DRI082?language=4&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
                 }
             ]
         },
@@ -693,13 +944,19 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM8/SM8_ES_21.png",
                     "expansion": "Truenos Perdidos",
                     "code": "LOT 21",
-                    "format": "Sol y Luna (no válidas en torneos)",
-                    "date": "2026-06-13",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE" ,
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Lost-Thunder/Grovyle-LOT21?language=4&minCondition=2&isReverseHolo=N",
-                    "type": "Uncommon",
-                    "language": "Español"
+                    "format": "Sol y Luna (no válida en torneos)",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Lost-Thunder/Grovyle-LOT21?language=4&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
                 },
                 {
                     "slot": 2,
@@ -708,12 +965,18 @@
                     "expansion": "Tempestad Plateada",
                     "code": "SIT085",
                     "format": "F (no válida en torneos)",
-                    "date": "2026-06-07",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE" ,
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Dedenne-SIT085?language=4&minCondition=2&isReverseHolo=N",
-                    "type": "Common",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common + Foil",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Dedenne-SIT085?language=4&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
                 },
                 {
                     "slot": 3,
@@ -722,12 +985,18 @@
                     "expansion": "Evoluciones en Paldea",
                     "code": "PAL116",
                     "format": "G (no válida en torneos)",
-                    "date": "2026-05-23",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE" ,
-                    "cardmarket-link": "",
-                    "type": "Common",
-                    "language": "Inglés"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Common",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paldea-Evolved/Rockruff-V1-PAL116?language=1&minCondition=2"
+                        }
+                    ]
                 },
                 {
                     "slot": 4,
@@ -736,12 +1005,18 @@
                     "expansion": "Journey Together",
                     "code": "JTG085",
                     "format": "I",
-                    "date": "2026-03-07",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE" ,
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Journey-Together/Lycanroc-V1-JTG085?language=4&minCondition=2&isReverseHolo=N",
-                    "type": "Rare",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Rare",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Journey-Together/Lycanroc-V1-JTG085?language=4&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
                 }
             ]
         },
@@ -755,12 +1030,18 @@
                     "expansion": "Destellos de Fuego",
                     "code": "FLF 8",
                     "format": "XY (no válida en torneos)",
-                    "date": "2026-06-13",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE" ,
-                    "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Flashfire/Roselia-FLF8?language=4&minCondition=2&isReverseHolo=N",
-                    "type": "Rare",
-                    "language": "Español"
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Rare",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Flashfire/Roselia-FLF8?language=4&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
                 }
             ]
         },
@@ -773,13 +1054,19 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEE/MEE_ES_1.png",
                     "expansion": "Sobre de premio de Play (serie 8)",
                     "code": "MEE001",
-                    "format": "",
-                    "date": "",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE" ,
-                    "cardmarket-link": "",
-                    "type": "Foil",
-                    "language": "Español"
+                    "format": null,
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Foil",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": "N/D",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Basic-Grass-Energy-V2-PPS8MEE-001?language=4&minCondition=2"
+                        }
+                    ]
                 },
                 {
                     "slot": 2,
@@ -787,13 +1074,19 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEE/MEE_ES_2.png",
                     "expansion": "Sobre de premio de Play (serie 8)",
                     "code": "MEE002",
-                    "format": "",
-                    "date": "",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE" ,
-                    "cardmarket-link": "",
-                    "type": "Foil",
-                    "language": "Español"
+                    "format": null,
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Foil",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": "N/D",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Basic-Fire-Energy-V2-PPS8MEE-002?language=4&minCondition=2"
+                        }
+                    ]
                 },
                 {
                     "slot": 3,
@@ -801,13 +1094,19 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SVE2/SVE2_ES_13.png",
                     "expansion": "Sobre de premio de Play (serie 7)",
                     "code": "SVE013",
-                    "format": "",
-                    "date": "",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE" ,
-                    "cardmarket-link": "",
-                    "type": "Foil",
-                    "language": "Español"
+                    "format": null,
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Foil",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": "N/D",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Basic-Psychic-Energy-V2-PPS7SVE-013?language=4&minCondition=2"
+                        }
+                    ]
                 },
                 {
                     "slot": 4,
@@ -815,13 +1114,19 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEE/MEE_ES_6.png",
                     "expansion": "Sobre de premio de Play (serie 8)",
                     "code": "MEE006",
-                    "format": "",
-                    "date": "",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE" ,
-                    "cardmarket-link": "",
-                    "type": "Foil",
-                    "language": "Español"
+                    "format": null,
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Foil",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": "N/D",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Basic-Fighting-Energy-V2-PPS8MEE-006?language=4&minCondition=2"
+                        }
+                    ]
                 }
             ]
         },
@@ -834,13 +1139,19 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEE/MEE_ES_3.png",
                     "expansion": "Sobre de premio de Play (serie 8)",
                     "code": "MEE003",
-                    "format": "",
-                    "date": "",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE" ,
-                    "cardmarket-link": "",
-                    "type": "Foil",
-                    "language": "Español"
+                    "format": null,
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Foil",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": "N/D",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Basic-Water-Energy-V2-PPS8MEE-003?language=4&minCondition=2"
+                        }
+                    ]
                 },
                 {
                     "slot": 2,
@@ -848,13 +1159,19 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SVE/SVE_ES_4.png",
                     "expansion": "Sobre de premio de Play (serie 7)",
                     "code": "SVE012",
-                    "format": "",
-                    "date": "",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE" ,
-                    "cardmarket-link": "",
-                    "type": "Foil",
-                    "language": "Español"
+                    "format": null,
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Foil",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": "N/D",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Basic-Lightning-Energy-V2-PPS7SVE-012?language=4&minCondition=2"
+                        }
+                    ]
                 },
                 {
                     "slot": 3,
@@ -862,27 +1179,39 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEE/MEE_ES_7.png",
                     "expansion": "Sobre de premio de Play (serie 8)",
                     "code": "MEE007",
-                    "format": "",
-                    "date": "",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE" ,
-                    "cardmarket-link": "",
-                    "type": "Estándar",
-                    "language": "Español"
+                    "format": null,
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "No Foil",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": "N/D",
+                            "cardmarket-link": ""
+                        }
+                    ]
                 },
                 {
                     "slot": 4,
-                    "name": "Energía de Planta Básica",
+                    "name": "Energía Metálica Básica",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SVE2/SVE2_ES_16.png",
                     "expansion": "Sobre de premio de Play (serie 7)",
                     "code": "SVE016",
-                    "format": "",
-                    "date": "",
-                    "condition": "Near Mint",
-                    "price": "NO TRADE" ,
-                    "cardmarket-link": "",
-                    "type": "Estándar",
-                    "language": "Español"
+                    "format": null,
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "No Foil",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": "N/D",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Basic-Darkness-Energy-V1-PPS8MEE-007?language=4&minCondition=2"
+                        }
+                    ]
                 }
             ]
         },
