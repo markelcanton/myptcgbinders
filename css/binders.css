@@ -76,8 +76,8 @@
 
 .card-item:not(.slot-vacio):hover {
     transform: scale(1.04);
-    border-color: crimson;
-    box-shadow: 0 4px 12px rgba(220, 20, 60, 0.4);
+    border-color: #2278e2;
+    box-shadow: 0 4px 12px rgba(34, 120, 226, 0.2);
 }
 
 .card-item.slot-vacio {
@@ -145,7 +145,7 @@
 }
 
 .nav-btn {
-    background: crimson;
+    background: #2278e2;
     color: white;
     border: none;
     padding: 8px 18px;
@@ -156,7 +156,7 @@
     transition: background 0.15s, transform 0.1s;
 }
 
-.nav-btn:hover { background: #b0102e; }
+.nav-btn:hover { background: #1661bc; }
 .nav-btn:active { transform: scale(0.97); }
 
 .page-select-container {
