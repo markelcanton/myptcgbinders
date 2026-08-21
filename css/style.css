@@ -1,5 +1,5 @@
 html {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsGn3vZXOOV2LXUQYBkPiv-Haj12EoV1OIpYLSqiIQeabOKiSwwEF_TTk&s=10');
+    background-image: url('https://static0.srcdn.com/wordpress/wp-content/uploads/2025/07/pokemon-riolu-smiles.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,20 +43,20 @@ nav.nav-buttons a:not(:last-child) {
 
 header > nav.nav-buttons > a {
     padding: 5px;
-    background-color: rgb(238, 21, 21);
+    background-color: #37a5f0;
     text-decoration: none;
     color: white;
     border-radius: 9px;
 
     border-style: solid;
     border-width: 1px;
-    border-color: rgb(238, 21, 21);
+    border-color: #37a5f0;
     transition: 0.25s;
 }
 
 header > nav.nav-buttons > a.active {
     background-color: white;
-    color: rgb(238, 21, 21);
+    color: black;
 
     border-style: solid;
     border-width: 1px;
@@ -98,24 +98,24 @@ footer {
 }
 
 main a {
-    color: crimson;
+    color: #2278e2;
     text-decoration: none;
     transition: 0.15s ease-in-out;
 }
 
 footer a {
-    color: crimson;
+    color: #2278e2;
     text-decoration: none;
     transition: 0.15s ease-in-out;
 }
 
 footer a:hover {
-    color: rgb(58, 58, 255);
+    color: #1661bc;
     transition: 0.15s ease-in-out;
 }
 
 main a:hover {
-    color: rgb(58, 58, 255);
+    color: #1661bc;
     transition: 0.15s ease-in-out;
 }
 
